@@ -1,0 +1,44 @@
+{
+  "name": "slice2json",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc -P tsconfig.build.json && cpx \"src/*.ohm\" lib"
+  },
+  "files": [
+    "src",
+    "lib"
+  ],
+  "repository": "aikoven/slice2json",
+  "author": "Daniel Lytkin <dan.lytkin@gmail.com>",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "ohm-js": "^0.14.0"
+  },
+  "devDependencies": {
+    "@types/glob": "^5.0.33",
+    "@types/jest": "^21.1.8",
+    "@types/node": "^8.0.53",
+    "cpx": "^1.5.0",
+    "glob": "^7.1.2",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.2.3",
+    "typescript": "^2.6.1",
+    "slice2js": "~3.7.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  }
+}

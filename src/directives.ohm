@@ -1,0 +1,20 @@
+Directives {
+  Source = (Code | Directive)*
+
+  Code = (~directive any)+
+
+  Ifdef = ifdef identifier Source endif
+  Ifndef = ifndef identifier Source endif
+  If = if identifier Source endif
+  Directive = Ifdef | Ifndef | If
+
+  ifdef = "#ifdef"
+  ifndef = "#ifndef"
+  if = "#if"
+  endif = "#endif"
+
+  directive = ifdef | ifndef | if | endif
+
+  identifier (an identifier)
+  	= (alnum | "_") +
+}

@@ -1,0 +1,158 @@
+Slice {
+  SliceSource = Directives? ModuleDeclaration+
+
+  Directives = (directive | GlobalMetadata)*
+
+  directive = includeDirective | pragmaDirective
+  includeDirective = "#include <" (~".ice>" any)+ ".ice>"
+  pragmaDirective = "#pragma once"
+
+  GlobalMetadata = "[[" ListOf<metadataPart, ","> "]]"
+
+  ModuleDeclaration = Metadata? "module" identifier "{" ModuleBody closeBracket
+
+  ModuleBody = AnyDeclaration*
+
+  AnyDeclaration = ModuleDeclaration
+                 | ClassForwardDeclaration | ClassDeclaration
+                 | InterfaceForwardDeclaration | InterfaceDeclaration
+                 | ExceptionDeclaration
+                 | StructDeclaration | EnumDeclaration
+                 | SequenceDeclaration | DictionaryDeclaration
+                 | ConstDeclaration
+
+  ClassForwardDeclaration = localModifier? "class" identifier ClassExtendsDeclaration? ";"
+  ClassDeclaration = Metadata? localModifier? "class" identifier ClassExtendsDeclaration? "{" ClassBody closeBracket
+  ClassExtendsDeclaration = "extends" objectType
+  ClassBody = (ClassFieldDeclaration | OperationDeclaration)*
+  ClassFieldDeclaration = Metadata? optionalModifier? dataType identifier DefaultValue? ";"
+
+  InterfaceForwardDeclaration = localModifier? "interface" identifier InterfaceExtendsDeclaration? ";"
+  InterfaceDeclaration = Metadata? localModifier? "interface" identifier InterfaceExtendsDeclaration? "{" InterfaceBody closeBracket
+  InterfaceExtendsDeclaration = "extends" NonemptyListOf<objectType, ",">
+  InterfaceBody = OperationDeclaration*
+
+  ExceptionDeclaration = Metadata? localModifier? "exception" identifier ClassExtendsDeclaration? "{" ExceptionBody closeBracket
+  ExceptionBody = ClassFieldDeclaration*
+
+  StructDeclaration = Metadata? localModifier? "struct" identifier "{" StructBody closeBracket
+  StructBody = StructFieldDeclaration*
+  StructFieldDeclaration = Metadata? dataType identifier DefaultValue? ";"
+
+  EnumDeclaration = Metadata? localModifier? "enum" identifier "{" EnumBody closeBracket
+  EnumBody = ListOf<EnumElement, ","> ","?
+  EnumElement = identifier EnumValue?
+  EnumValue = "=" (decimalIntegerLiteral | typeId)
+
+  SequenceDeclaration = Metadata? localModifier? "sequence<" dataType ">" identifier ";"
+
+  DictionaryDeclaration = Metadata? localModifier? "dictionary<" dataType "," dataType ">" identifier ";"
+
+  ConstDeclaration = "const" dataType identifier DefaultValue ";"
+
+  OperationDeclaration = Metadata? idempotentModifier? returnType identifier "(" ParameterList ")" ThrowsDeclaration? ";"
+  ParameterList = ListOf<ParameterDeclaration, ",">
+  ParameterDeclaration = Metadata? outModifier? optionalModifier? dataType identifier
+  ThrowsDeclaration = "throws" NonemptyListOf<typeId, ",">
+
+  outModifier = "out"
+  idempotentModifier = "idempotent"
+  optionalModifier = "optional(" decimalIntegerLiteral ")"
+  localModifier = "local"
+
+  typeId = identifier ("::" identifier)*
+  objectType = typeId | "Object" | "LocalObject"
+  dataType = proxyType | primitiveType | objectType
+  proxyType = objectType whitespace* "*"
+  returnType = dataType | "void"
+
+  DefaultValue = "=" (literal | typeId)
+
+  Metadata = "[" ListOf<metadataPart, ","> "]"
+  metadataPart = "\"" (~"\"" any)* "\""
+
+  space := whitespace | lineTerminator | comment
+
+  closeBracket = "}" ";"?
+
+  whitespace = "\t" | " "
+  lineTerminator = "\n"
+
+  comment = multiLineComment | singleLineComment
+
+  multiLineComment = "/*" (~"*/" any)* "*/"
+  singleLineComment = "//" (~lineTerminator any)*
+
+  // literals
+  literal = booleanLiteral | numericLiteral | stringLiteral
+  booleanLiteral = "true" | "false"
+
+  numericLiteral = "-"? (octalIntegerLiteral | hexIntegerLiteral | decimalLiteral)
+
+  decimalLiteral = decimalIntegerLiteral "." decimalDigit* exponentPart -- bothParts
+                 |                       "." decimalDigit+ exponentPart -- decimalsOnly
+                 | decimalIntegerLiteral                   exponentPart -- integerOnly
+
+  decimalIntegerLiteral = nonZeroDigit decimalDigit*  -- nonZero
+                        | "0"                         -- zero
+  decimalDigit = "0".."9"
+  nonZeroDigit = "1".."9"
+
+  exponentPart = exponentIndicator signedInteger -- present
+               |                                 -- absent
+  exponentIndicator = "e" | "E"
+  signedInteger = "+" decimalDigit* -- positive
+                | "-" decimalDigit* -- negative
+                |     decimalDigit+ -- noSign
+
+  hexIntegerLiteral = "0x" hexDigit+
+                    | "0X" hexDigit+
+
+  // hexDigit defined in Ohm's built-in rules (otherwise: hexDigit = "0".."9" | "a".."f" | "A".."F")
+
+  octalIntegerLiteral = "0" octalDigit+
+
+  octalDigit = "0".."7"
+
+  // For semantics on how string literals are constructed, see section 7.8.4
+  stringLiteral = "\"" stringCharacter* "\""
+  stringCharacter = ~("\"" | "\\" | lineTerminator) any -- nonEscaped
+                        | "\\" escapeSequence                 -- escaped
+
+  escapeSequence = unicodeEscapeSequence
+                 | hexEscapeSequence
+                 | octalEscapeSequence
+                 | characterEscapeSequence  // Must come last.
+  characterEscapeSequence = singleEscapeCharacter
+                          | nonEscapeCharacter
+  singleEscapeCharacter = "'" | "\"" | "\\" | "b" | "f" | "n" | "r" | "t" | "v"
+  nonEscapeCharacter = ~(escapeCharacter | lineTerminator) any
+  escapeCharacter = singleEscapeCharacter | decimalDigit | "x" | "u"
+  octalEscapeSequence = zeroToThree octalDigit octalDigit    -- whole
+                      | fourToSeven octalDigit               -- eightTimesfourToSeven
+                      | zeroToThree octalDigit ~decimalDigit -- eightTimesZeroToThree
+                      | octalDigit ~decimalDigit             -- octal
+  hexEscapeSequence = "x" hexDigit hexDigit
+  unicodeEscapeSequence = "u" hexDigit hexDigit hexDigit hexDigit
+
+  zeroToThree = "0".."3"
+  fourToSeven = "4".."7"
+  // end literals
+
+  /* https://doc.zeroc.com/display/Ice36/Lexical+Rules */
+  identifier  (an identifier)
+    = ~reservedWord identifierName
+
+  identifierName = "\\"? letter ("_"? alnum)*
+
+  reservedWord = keyword ~identifierName
+
+  /* https://doc.zeroc.com/display/Ice36/Slice+Keywords */
+  keyword = "bool" | "extends" | "LocalObject" | "string" | "byte" | "false"
+          | "long" | "struct" | "class" | "float" | "module" | "throws" | "const"
+          | "idempotent" | "Object" | "true" | "dictionary" | "implements"
+          | "optional" | "void" | "double" | "int" | "out" | "enum" | "interface" | "sequence"
+          | "exception"	| "local" | "short"
+
+  primitiveType = "bool" | "string" | "byte" | "int" | "long" | "float" | "double" | "short"
+}
