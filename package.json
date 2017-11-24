@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Parser for the Slice language",
   "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "tsc -P tsconfig.build.json && cpx \"src/*.ohm\" lib"
