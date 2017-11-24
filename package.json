@@ -1,8 +1,8 @@
 {
   "name": "slice2json",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Parser for the Slice language",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest",
     "build": "tsc -P tsconfig.build.json && cpx \"src/*.ohm\" lib"
