@@ -6,7 +6,8 @@
   "typings": "lib/index.d.ts",
   "scripts": {
     "test": "jest",
-    "build": "tsc -P tsconfig.build.json && cpx \"src/*.ohm\" lib"
+    "build": "tsc -P tsconfig.build.json && cpx \"src/*.ohm\" lib",
+    "prepublish": "npm test && npm run build"
   },
   "files": [
     "src",
