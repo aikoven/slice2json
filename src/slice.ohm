@@ -50,7 +50,7 @@ Slice {
 
   ConstDeclaration = "const" dataType identifier DefaultValue ";"
 
-  OperationDeclaration = Metadata? idempotentModifier? returnType identifier "(" ParameterList ")" ThrowsDeclaration? ";"
+  OperationDeclaration = Metadata? idempotentModifier? optionalModifier? returnType identifier "(" ParameterList ")" ThrowsDeclaration? ";"
   ParameterList = ListOf<ParameterDeclaration, ",">
   ParameterDeclaration = Metadata? outModifier? optionalModifier? dataType identifier
   ThrowsDeclaration = "throws" NonemptyListOf<typeId, ",">

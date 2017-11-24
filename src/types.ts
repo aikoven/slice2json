@@ -148,6 +148,8 @@ export interface OperationDeclaration {
   doc?: string;
   metadata?: string[];
   idempotent?: boolean;
+  returnOptional?: number;
+  returnType: string;
   parameters: ParameterDeclaration[];
   throws?: string[];
 }

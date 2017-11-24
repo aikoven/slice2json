@@ -392,6 +392,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
     this: Node,
     metadataNode,
     idempotentModifierNode,
+    optionalModifierNode,
     returnTypeNode,
     identifierNode,
     t1,
@@ -402,6 +403,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
   ): types.OperationDeclaration {
     const [metadata] = metadataNode.toJson();
     const [idempotent] = idempotentModifierNode.toJson();
+    const [optional] = optionalModifierNode.toJson();
     const [throws] = throwsDeclarationNode.toJson();
 
     return {
@@ -410,6 +412,8 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
       doc: findDocString(this),
       metadata: metadata ? metadata.data : undefined,
       idempotent: idempotent ? true : undefined,
+      returnOptional: optional ? optional.tag : undefined,
+      returnType: returnTypeNode.sourceString,
       parameters: parameterListNode.toJson(),
       throws: throws ? throws.data : undefined,
     };
