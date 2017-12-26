@@ -6,8 +6,8 @@
   "typings": "lib/index.d.ts",
   "scripts": {
     "test": "jest",
-    "build": "tsc -P tsconfig.build.json && cpx \"src/*.ohm\" lib",
-    "prepublish": "npm test && npm run build"
+    "build": "rimraf lib && tsc -P tsconfig.build.json && cpx \"src/*.ohm\" lib",
+    "prepare": "npm test && npm run build"
   },
   "files": [
     "src",
@@ -26,9 +26,10 @@
     "cpx": "^1.5.0",
     "glob": "^7.1.2",
     "jest": "^21.2.1",
+    "rimraf": "^2.6.2",
+    "slice2js": "~3.7.0",
     "ts-jest": "^21.2.3",
-    "typescript": "^2.6.1",
-    "slice2js": "~3.7.0"
+    "typescript": "^2.6.1"
   },
   "jest": {
     "transform": {
