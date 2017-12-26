@@ -40,7 +40,7 @@ export interface ClassDeclaration {
   doc?: string;
   metadata?: string;
   local?: boolean;
-  extends: string;
+  extends?: string;
   content: ClassChild[];
 }
 
