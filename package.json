@@ -1,6 +1,6 @@
 {
   "name": "slice2json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parser for the Slice language",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
