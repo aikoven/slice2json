@@ -19502,6 +19502,68 @@ Object {
 }
 `;
 
+exports[`Slices dictionary.ice 1`] = `
+Object {
+  "globalMetadata": undefined,
+  "includes": undefined,
+  "modules": Array [
+    Object {
+      "content": Array [
+        Object {
+          "doc": undefined,
+          "fields": Array [],
+          "local": undefined,
+          "metadata": undefined,
+          "name": "Struct",
+          "type": "struct",
+        },
+        Object {
+          "doc": undefined,
+          "keyType": "string",
+          "local": undefined,
+          "metadata": undefined,
+          "name": "StructMap",
+          "type": "dictionary",
+          "valueType": "Struct",
+        },
+        Object {
+          "doc": undefined,
+          "keyType": "string",
+          "local": undefined,
+          "metadata": undefined,
+          "name": "StructMap2",
+          "type": "dictionary",
+          "valueType": "Struct",
+        },
+        Object {
+          "doc": undefined,
+          "keyType": "string",
+          "local": undefined,
+          "metadata": undefined,
+          "name": "StructMap3",
+          "type": "dictionary",
+          "valueType": "Struct",
+        },
+        Object {
+          "doc": undefined,
+          "keyType": "string",
+          "local": undefined,
+          "metadata": undefined,
+          "name": "StructMap4",
+          "type": "dictionary",
+          "valueType": "Struct",
+        },
+      ],
+      "doc": undefined,
+      "metadata": undefined,
+      "name": "A",
+      "type": "module",
+    },
+  ],
+  "pragmaOnce": true,
+}
+`;
+
 exports[`Slices optional-return-type.ice 1`] = `
 Object {
   "globalMetadata": undefined,
@@ -19529,6 +19591,64 @@ Object {
           "metadata": undefined,
           "name": "I",
           "type": "interface",
+        },
+      ],
+      "doc": undefined,
+      "metadata": undefined,
+      "name": "A",
+      "type": "module",
+    },
+  ],
+  "pragmaOnce": true,
+}
+`;
+
+exports[`Slices sequence.ice 1`] = `
+Object {
+  "globalMetadata": undefined,
+  "includes": undefined,
+  "modules": Array [
+    Object {
+      "content": Array [
+        Object {
+          "doc": undefined,
+          "fields": Array [],
+          "local": undefined,
+          "metadata": undefined,
+          "name": "Struct",
+          "type": "struct",
+        },
+        Object {
+          "dataType": "Struct",
+          "doc": undefined,
+          "local": undefined,
+          "metadata": undefined,
+          "name": "StructSeq",
+          "type": "sequence",
+        },
+        Object {
+          "dataType": "Struct",
+          "doc": undefined,
+          "local": undefined,
+          "metadata": undefined,
+          "name": "StructSeq2",
+          "type": "sequence",
+        },
+        Object {
+          "dataType": "Struct",
+          "doc": undefined,
+          "local": undefined,
+          "metadata": undefined,
+          "name": "StructSeq3",
+          "type": "sequence",
+        },
+        Object {
+          "dataType": "Struct",
+          "doc": undefined,
+          "local": undefined,
+          "metadata": undefined,
+          "name": "StructSeq4",
+          "type": "sequence",
         },
       ],
       "doc": undefined,

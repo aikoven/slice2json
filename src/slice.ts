@@ -327,10 +327,11 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
     metadataNode,
     localModifierNode,
     t1,
-    dataTypeNode,
     t2,
-    identifierNode,
+    dataTypeNode,
     t3,
+    identifierNode,
+    t4,
   ): types.SequenceDeclaration {
     const [metadata] = metadataNode.toJson();
     const [local] = localModifierNode.toJson();
@@ -350,12 +351,13 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
     metadataNode,
     localModifierNode,
     t1,
-    keyTypeNode,
     t2,
-    valueTypeNode,
+    keyTypeNode,
     t3,
-    identifierNode,
+    valueTypeNode,
     t4,
+    identifierNode,
+    t5,
   ): types.DictionaryDeclaration {
     const [metadata] = metadataNode.toJson();
     const [local] = localModifierNode.toJson();
