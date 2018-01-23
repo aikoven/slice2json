@@ -76,7 +76,7 @@ Slice {
   closeBracket = "}" ";"?
 
   whitespace = "\t" | " "
-  lineTerminator = "\n"
+  lineTerminator = "\n" | "\r\n"
 
   comment = multiLineComment | singleLineComment
 
