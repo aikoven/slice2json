@@ -335,6 +335,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
   ): types.SequenceDeclaration {
     const [metadata] = metadataNode.toJson();
     const [local] = localModifierNode.toJson();
+    const dataType = dataTypeNode.toJson();
 
     return {
       type: 'sequence',
@@ -342,7 +343,8 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
       doc: findDocString(this),
       metadata: metadata ? metadata.data : undefined,
       local: local ? true : undefined,
-      dataType: dataTypeNode.sourceString,
+      dataTypeMetadata: dataType.metadata,
+      dataType: dataType.dataType,
     };
   },
 
@@ -361,6 +363,8 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
   ): types.DictionaryDeclaration {
     const [metadata] = metadataNode.toJson();
     const [local] = localModifierNode.toJson();
+    const keyType = keyTypeNode.toJson();
+    const valueType = valueTypeNode.toJson();
 
     return {
       type: 'dictionary',
@@ -368,8 +372,19 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
       doc: findDocString(this),
       metadata: metadata ? metadata.data : undefined,
       local: local ? true : undefined,
-      keyType: keyTypeNode.sourceString,
-      valueType: valueTypeNode.sourceString,
+      keyTypeMetadata: keyType.metadata,
+      keyType: keyType.dataType,
+      valueTypeMetadata: valueType.metadata,
+      valueType: valueType.dataType,
+    };
+  },
+
+  CollectionDataType(metadataNode, dataTypeNode) {
+    const [metadata] = metadataNode.toJson();
+
+    return {
+      metadata: metadata ? metadata.data : undefined,
+      dataType: dataTypeNode.sourceString,
     };
   },
 

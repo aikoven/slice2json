@@ -1122,6 +1122,7 @@ Object {
       "content": Array [
         Object {
           "dataType": "bool",
+          "dataTypeMetadata": undefined,
           "doc": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -1130,6 +1131,7 @@ Object {
         },
         Object {
           "dataType": "byte",
+          "dataTypeMetadata": undefined,
           "doc": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -1138,6 +1140,7 @@ Object {
         },
         Object {
           "dataType": "short",
+          "dataTypeMetadata": undefined,
           "doc": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -1146,6 +1149,7 @@ Object {
         },
         Object {
           "dataType": "int",
+          "dataTypeMetadata": undefined,
           "doc": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -1154,6 +1158,7 @@ Object {
         },
         Object {
           "dataType": "long",
+          "dataTypeMetadata": undefined,
           "doc": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -1162,6 +1167,7 @@ Object {
         },
         Object {
           "dataType": "float",
+          "dataTypeMetadata": undefined,
           "doc": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -1170,6 +1176,7 @@ Object {
         },
         Object {
           "dataType": "double",
+          "dataTypeMetadata": undefined,
           "doc": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -1178,6 +1185,7 @@ Object {
         },
         Object {
           "dataType": "string",
+          "dataTypeMetadata": undefined,
           "doc": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -1186,6 +1194,7 @@ Object {
         },
         Object {
           "dataType": "Object",
+          "dataTypeMetadata": undefined,
           "doc": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -1194,6 +1203,7 @@ Object {
         },
         Object {
           "dataType": "Object*",
+          "dataTypeMetadata": undefined,
           "doc": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -3042,11 +3052,13 @@ not yet closed.",
         Object {
           "doc": undefined,
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "HeaderDict",
           "type": "dictionary",
           "valueType": "string",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "content": Array [
@@ -3159,11 +3171,13 @@ request from the server to the client, such as Quality-of-Service
 (QoS) parameters. Each operation on the client has a <tt>Context</tt> as
 its implicit final parameter.",
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "Context",
           "type": "dictionary",
           "valueType": "string",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "doc": undefined,
@@ -3703,6 +3717,7 @@ Object {
         },
         Object {
           "dataType": "Endpoint",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of endpoints.",
           "local": true,
           "metadata": undefined,
@@ -3788,11 +3803,13 @@ Object {
         Object {
           "doc": "A mapping from facet name to servant.",
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": true,
           "metadata": undefined,
           "name": "FacetMap",
           "type": "dictionary",
           "valueType": "Object",
+          "valueTypeMetadata": undefined,
         },
       ],
       "doc": undefined,
@@ -3854,14 +3871,17 @@ is illegal. You cannot add a servant with an empty name to the Active Servant Ma
         Object {
           "doc": undefined,
           "keyType": "Identity",
+          "keyTypeMetadata": undefined,
           "local": true,
           "metadata": undefined,
           "name": "ObjectDict",
           "type": "dictionary",
           "valueType": "Object",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "dataType": "Identity",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of identities.",
           "local": undefined,
           "metadata": undefined,
@@ -6912,11 +6932,13 @@ Object {
         Object {
           "doc": "A dictionnary of strings to integers.",
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "StringIntDict",
           "type": "dictionary",
           "valueType": "int",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "content": Array [
@@ -7002,6 +7024,7 @@ failures.",
         },
         Object {
           "dataType": "MetricsFailures",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of {@link MetricsFailures}.",
           "local": undefined,
           "metadata": undefined,
@@ -7010,6 +7033,7 @@ failures.",
         },
         Object {
           "dataType": "Metrics",
+          "dataTypeMetadata": undefined,
           "doc": "A metrics map is a sequence of metrics. We use a sequence here
 instead of a map because the ID of the metrics is already included
 in the Metrics class and using sequences of metrics objects is more
@@ -7023,11 +7047,13 @@ efficient than using dictionaries since lookup is not necessary.",
           "doc": "A metrics view is a dictionary of metrics map. The key of the
 dictionary is the name of the metrics map.",
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "MetricsView",
           "type": "dictionary",
           "valueType": "MetricsMap",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "content": Array [],
@@ -9504,11 +9530,13 @@ key/value pairs. Both key and value are strings.
 
 @see Properties#getPropertiesForPrefix",
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "PropertyDict",
           "type": "dictionary",
           "valueType": "string",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "content": Array [
@@ -9700,6 +9728,7 @@ Object {
         },
         Object {
           "dataType": "LogMessageType",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of {@link LogMessageType}",
           "local": undefined,
           "metadata": undefined,
@@ -9747,6 +9776,7 @@ otherwise, the empty string.",
         },
         Object {
           "dataType": "LogMessage",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of {@link LogMessage}.",
           "local": undefined,
           "metadata": Array [
@@ -10428,11 +10458,13 @@ Object {
 allows verification at run time that client and server
 use matching Slice definitions.",
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "SliceChecksumDict",
           "type": "dictionary",
           "valueType": "string",
+          "valueTypeMetadata": undefined,
         },
       ],
       "doc": undefined,
@@ -11487,11 +11519,13 @@ activation timed out.",
         Object {
           "doc": "A dictionary of proxies.",
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "StringObjectProxyDict",
           "type": "dictionary",
           "valueType": "Object*",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "doc": "Information about an Ice object.",
@@ -11520,6 +11554,7 @@ activation timed out.",
         },
         Object {
           "dataType": "ObjectInfo",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of object information structures.",
           "local": undefined,
           "metadata": undefined,
@@ -11561,6 +11596,7 @@ adapter doesn't belong to a replica group.",
         },
         Object {
           "dataType": "AdapterInfo",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of adapter information structures.",
           "local": undefined,
           "metadata": undefined,
@@ -11712,6 +11748,7 @@ uname()).",
         },
         Object {
           "dataType": "RegistryInfo",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of {@link RegistryInfo} structures.",
           "local": undefined,
           "metadata": undefined,
@@ -11808,6 +11845,7 @@ uname()).",
         },
         Object {
           "dataType": "ApplicationInfo",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of {@link ApplicationInfo} structures.",
           "local": undefined,
           "metadata": Array [
@@ -13509,6 +13547,7 @@ to read lines from the file.",
         },
         Object {
           "dataType": "ServerDynamicInfo",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of server dynamic information structures.",
           "local": undefined,
           "metadata": Array [
@@ -13542,6 +13581,7 @@ to read lines from the file.",
         },
         Object {
           "dataType": "AdapterDynamicInfo",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of adapter dynamic information structures.",
           "local": undefined,
           "metadata": Array [
@@ -13659,6 +13699,7 @@ of the registry.",
         },
         Object {
           "dataType": "NodeDynamicInfo",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of node dynamic information structures.",
           "local": undefined,
           "metadata": undefined,
@@ -14783,11 +14824,13 @@ Object {
         Object {
           "doc": "A mapping of string to string.",
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "StringStringDict",
           "type": "dictionary",
           "valueType": "string",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "doc": "Property descriptor.",
@@ -14814,6 +14857,7 @@ Object {
         },
         Object {
           "dataType": "PropertyDescriptor",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of property descriptors.",
           "local": undefined,
           "metadata": Array [
@@ -14850,11 +14894,13 @@ Object {
         Object {
           "doc": "A mapping of property set name to property set descriptor.",
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "PropertySetDescriptorDict",
           "type": "dictionary",
           "valueType": "PropertySetDescriptor",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "doc": "An Ice object descriptor.",
@@ -14890,6 +14936,7 @@ adapter or replica group.",
         },
         Object {
           "dataType": "ObjectDescriptor",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of object descriptors.",
           "local": undefined,
           "metadata": Array [
@@ -14979,6 +15026,7 @@ all its \\"server lifetime\\" adapters are active.",
         },
         Object {
           "dataType": "AdapterDescriptor",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of adapter descriptors.",
           "local": undefined,
           "metadata": Array [
@@ -15031,6 +15079,7 @@ must exist.",
         },
         Object {
           "dataType": "DbEnvDescriptor",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of database environment descriptors.",
           "local": undefined,
           "metadata": Array [
@@ -15263,6 +15312,7 @@ distribution.",
         },
         Object {
           "dataType": "ServerDescriptor",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of server descriptors.",
           "local": undefined,
           "metadata": Array [
@@ -15301,6 +15351,7 @@ distribution.",
         },
         Object {
           "dataType": "ServiceDescriptor",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of service descriptors.",
           "local": undefined,
           "metadata": Array [
@@ -15351,6 +15402,7 @@ property sets if the template is an IceBox server template.",
         },
         Object {
           "dataType": "ServerInstanceDescriptor",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of server instance descriptors.",
           "local": undefined,
           "metadata": Array [
@@ -15394,11 +15446,13 @@ property sets if the template is an IceBox server template.",
         Object {
           "doc": "A mapping of template identifier to template descriptor.",
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "TemplateDescriptorDict",
           "type": "dictionary",
           "valueType": "TemplateDescriptor",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "doc": "A service template instance descriptor.",
@@ -15440,6 +15494,7 @@ instance (i.e.: if the template attribute is empty).",
         },
         Object {
           "dataType": "ServiceInstanceDescriptor",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of service instance descriptors.",
           "local": undefined,
           "metadata": Array [
@@ -15523,11 +15578,13 @@ instance (i.e.: if the template attribute is empty).",
         Object {
           "doc": "Mapping of node name to node descriptor.",
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "NodeDescriptorDict",
           "type": "dictionary",
           "valueType": "NodeDescriptor",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "content": Array [
@@ -15651,6 +15708,7 @@ minutes and the past 15 minutes.",
         },
         Object {
           "dataType": "ReplicaGroupDescriptor",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of replica groups.",
           "local": undefined,
           "metadata": Array [
@@ -15735,6 +15793,7 @@ minutes and the past 15 minutes.",
         },
         Object {
           "dataType": "ApplicationDescriptor",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of application descriptors.",
           "local": undefined,
           "metadata": Array [
@@ -15848,6 +15907,7 @@ was not updated).",
         },
         Object {
           "dataType": "NodeUpdateDescriptor",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of node update descriptors.",
           "local": undefined,
           "metadata": Array [
@@ -18283,6 +18343,7 @@ Object {
         },
         Object {
           "dataType": "FileInfo",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence with information about many files.",
           "local": undefined,
           "metadata": undefined,
@@ -18328,6 +18389,7 @@ Object {
         },
         Object {
           "dataType": "LargeFileInfo",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence with information about many files.",
           "local": undefined,
           "metadata": undefined,
@@ -18366,6 +18428,7 @@ Object {
       "content": Array [
         Object {
           "dataType": "Ice::ByteSeq",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of byte sequences. Each element is the checksum for a
 partition.",
           "local": undefined,
@@ -18860,6 +18923,7 @@ Object {
         },
         Object {
           "dataType": "LinkInfo",
+          "dataTypeMetadata": undefined,
           "doc": "A sequence of {@link LinkInfo} objects.",
           "local": undefined,
           "metadata": undefined,
@@ -18869,11 +18933,13 @@ Object {
         Object {
           "doc": undefined,
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "QoS",
           "type": "dictionary",
           "valueType": "string",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "content": Array [
@@ -19213,11 +19279,13 @@ logically represents a type.
         Object {
           "doc": "Mapping of topic name to topic proxy.",
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "TopicDict",
           "type": "dictionary",
           "valueType": "Topic*",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "content": Array [
@@ -19520,43 +19588,212 @@ Object {
         Object {
           "doc": undefined,
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "StructMap",
           "type": "dictionary",
           "valueType": "Struct",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "doc": undefined,
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "StructMap2",
           "type": "dictionary",
           "valueType": "Struct",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "doc": undefined,
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "StructMap3",
           "type": "dictionary",
           "valueType": "Struct",
+          "valueTypeMetadata": undefined,
         },
         Object {
           "doc": undefined,
           "keyType": "string",
+          "keyTypeMetadata": undefined,
           "local": undefined,
           "metadata": undefined,
           "name": "StructMap4",
           "type": "dictionary",
           "valueType": "Struct",
+          "valueTypeMetadata": undefined,
         },
       ],
       "doc": undefined,
       "metadata": undefined,
       "name": "A",
+      "type": "module",
+    },
+  ],
+  "pragmaOnce": true,
+}
+`;
+
+exports[`Slices metadata.ice 1`] = `
+Object {
+  "globalMetadata": undefined,
+  "includes": undefined,
+  "modules": Array [
+    Object {
+      "content": Array [
+        Object {
+          "content": Array [],
+          "doc": undefined,
+          "extends": undefined,
+          "local": undefined,
+          "metadata": undefined,
+          "name": "AbstractBase",
+          "type": "class",
+        },
+        Object {
+          "content": Array [],
+          "doc": undefined,
+          "extends": "AbstractBase",
+          "local": undefined,
+          "metadata": undefined,
+          "name": "A",
+          "type": "class",
+        },
+        Object {
+          "content": Array [],
+          "doc": undefined,
+          "extends": "AbstractBase",
+          "local": undefined,
+          "metadata": undefined,
+          "name": "B",
+          "type": "class",
+        },
+        Object {
+          "doc": undefined,
+          "fields": Array [
+            Object {
+              "dataType": "AbstractBase",
+              "defaultValue": undefined,
+              "doc": undefined,
+              "metadata": Array [
+                "ts:type:A|B",
+              ],
+              "name": "field",
+            },
+          ],
+          "local": undefined,
+          "metadata": undefined,
+          "name": "S",
+          "type": "struct",
+        },
+        Object {
+          "content": Array [
+            Object {
+              "dataType": "AbstractBase",
+              "defaultValue": undefined,
+              "doc": undefined,
+              "metadata": Array [
+                "ts:type:A|B",
+              ],
+              "name": "field1",
+              "optional": undefined,
+              "type": "field",
+            },
+            Object {
+              "dataType": "AbstractBase",
+              "defaultValue": undefined,
+              "doc": undefined,
+              "metadata": Array [
+                "ts:type:A|B",
+              ],
+              "name": "field2",
+              "optional": 1,
+              "type": "field",
+            },
+          ],
+          "doc": undefined,
+          "extends": undefined,
+          "local": undefined,
+          "metadata": undefined,
+          "name": "C",
+          "type": "class",
+        },
+        Object {
+          "content": Array [
+            Object {
+              "doc": undefined,
+              "idempotent": undefined,
+              "metadata": Array [
+                "ts:type:A|B",
+              ],
+              "name": "operation",
+              "parameters": Array [
+                Object {
+                  "dataType": "AbstractBase",
+                  "metadata": Array [
+                    "ts:type:A|B",
+                  ],
+                  "name": "arg1",
+                  "optional": undefined,
+                  "out": undefined,
+                },
+                Object {
+                  "dataType": "AbstractBase",
+                  "metadata": Array [
+                    "ts:type:A|B",
+                  ],
+                  "name": "arg2",
+                  "optional": 1,
+                  "out": undefined,
+                },
+              ],
+              "returnOptional": undefined,
+              "returnType": "AbstractBase",
+              "throws": undefined,
+              "type": "operation",
+            },
+          ],
+          "doc": undefined,
+          "extends": undefined,
+          "local": undefined,
+          "metadata": undefined,
+          "name": "I",
+          "type": "interface",
+        },
+        Object {
+          "dataType": "AbstractBase",
+          "dataTypeMetadata": Array [
+            "ts:type:A|B",
+          ],
+          "doc": undefined,
+          "local": undefined,
+          "metadata": undefined,
+          "name": "Seq",
+          "type": "sequence",
+        },
+        Object {
+          "doc": undefined,
+          "keyType": "string",
+          "keyTypeMetadata": undefined,
+          "local": undefined,
+          "metadata": undefined,
+          "name": "Dict",
+          "type": "dictionary",
+          "valueType": "AbstractBase",
+          "valueTypeMetadata": Array [
+            "ts:type:A|B",
+          ],
+        },
+      ],
+      "doc": undefined,
+      "metadata": undefined,
+      "name": "M",
       "type": "module",
     },
   ],
@@ -19620,6 +19857,7 @@ Object {
         },
         Object {
           "dataType": "Struct",
+          "dataTypeMetadata": undefined,
           "doc": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -19628,6 +19866,7 @@ Object {
         },
         Object {
           "dataType": "Struct",
+          "dataTypeMetadata": undefined,
           "doc": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -19636,6 +19875,7 @@ Object {
         },
         Object {
           "dataType": "Struct",
+          "dataTypeMetadata": undefined,
           "doc": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -19644,6 +19884,7 @@ Object {
         },
         Object {
           "dataType": "Struct",
+          "dataTypeMetadata": undefined,
           "doc": undefined,
           "local": undefined,
           "metadata": undefined,

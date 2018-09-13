@@ -38,7 +38,7 @@ export interface ClassDeclaration {
   type: 'class';
   name: string;
   doc?: string;
-  metadata?: string;
+  metadata?: string[];
   local?: boolean;
   extends?: string;
   content: ClassChild[];
@@ -121,6 +121,7 @@ export interface SequenceDeclaration {
   doc?: string;
   metadata?: string[];
   local?: boolean;
+  dataTypeMetadata?: string[];
   dataType: string;
 }
 
@@ -128,9 +129,11 @@ export interface DictionaryDeclaration {
   type: 'dictionary';
   name: string;
   doc?: string;
-  metadata?: string;
+  metadata?: string[];
   local?: boolean;
+  keyTypeMetadata?: string[];
   keyType: string;
+  valueTypeMetadata?: string[];
   valueType: string;
 }
 

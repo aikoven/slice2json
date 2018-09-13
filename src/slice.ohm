@@ -44,9 +44,11 @@ Slice {
   EnumElement = identifier EnumValue?
   EnumValue = "=" (decimalIntegerLiteral | typeId)
 
-  SequenceDeclaration = Metadata? localModifier? "sequence" "<" dataType ">" identifier ";"
+  SequenceDeclaration = Metadata? localModifier? "sequence" "<" CollectionDataType ">" identifier ";"
 
-  DictionaryDeclaration = Metadata? localModifier? "dictionary" "<" dataType "," dataType ">" identifier ";"
+  DictionaryDeclaration = Metadata? localModifier? "dictionary" "<" CollectionDataType "," CollectionDataType ">" identifier ";"
+
+  CollectionDataType = Metadata? dataType
 
   ConstDeclaration = "const" dataType identifier DefaultValue ";"
 
