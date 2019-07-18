@@ -20,7 +20,10 @@ const stripSemantics = directivesGrammar
     Ifdef(t1, t2, t3, t4) {
       return '';
     },
-    If(t1, t2, t3, t4) {
+    If(t1, condition, code, t4) {
+      if (condition.sourceString.startsWith('!defined')) {
+        return code.strip();
+      }
       return '';
     },
     Ifndef(t1, t2, code, t4) {

@@ -9,6 +9,9 @@ b
 #endif
 c
 #endif
+#if !defined(kek)
+d
+#endif
 suffix
 `.trim();
 
@@ -16,6 +19,7 @@ const expected = `
 prefix
 a
 c
+d
 suffix
 `.trim();
 

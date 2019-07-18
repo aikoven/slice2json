@@ -20,16 +20,16 @@
     "ohm-js": "^0.14.0"
   },
   "devDependencies": {
-    "@types/glob": "^5.0.33",
-    "@types/jest": "^21.1.8",
-    "@types/node": "^8.0.53",
+    "@types/glob": "^7.1.1",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.8",
     "cpx": "^1.5.0",
-    "glob": "^7.1.2",
-    "jest": "^21.2.1",
-    "rimraf": "^2.6.2",
-    "slice2js": "~3.7.0",
-    "ts-jest": "^21.2.3",
-    "typescript": "^2.6.1"
+    "glob": "^7.1.4",
+    "jest": "^24.8.0",
+    "rimraf": "^2.6.3",
+    "slice2js": "~3.7.2",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
   },
   "jest": {
     "transform": {

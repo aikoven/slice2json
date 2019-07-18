@@ -3,14 +3,15 @@
 exports[`Built-in slices Glacier2/Metrics.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:GLACIER2_API",
-    "objc:header-dir:objc",
-    "objc:dll-export:GLACIER2_API",
-    "js:ice-build",
-    "python:pkgdir:Glacier2",
+    "cpp:doxygen:include:Glacier2/Glacier2.h",
+    "cpp:header-ext:h",
     "cpp:include:Glacier2/Config.h",
+    "ice-prefix",
+    "js:module:ice",
+    "objc:dll-export:GLACIER2_API",
+    "objc:header-dir:objc",
+    "python:pkgdir:Glacier2",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -108,13 +109,14 @@ Object {
 exports[`Built-in slices Glacier2/PermissionsVerifier.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "cpp:header-ext:h",
     "cpp:dll-export:GLACIER2_API",
-    "objc:header-dir:objc",
-    "objc:dll-export:GLACIER2_API",
-    "js:ice-build",
-    "python:pkgdir:Glacier2",
+    "cpp:doxygen:include:Glacier2/Glacier2.h",
+    "cpp:header-ext:h",
     "cpp:include:Glacier2/Config.h",
+    "js:module:ice",
+    "objc:dll-export:GLACIER2_API",
+    "objc:header-dir:objc",
+    "python:pkgdir:Glacier2",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -282,11 +284,12 @@ process of establishing a session.
 exports[`Built-in slices Glacier2/PermissionsVerifierF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "cpp:header-ext:h",
     "cpp:dll-export:GLACIER2_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Glacier2/Glacier2.h",
+    "cpp:header-ext:h",
+    "js:module:ice",
     "objc:dll-export:GLACIER2_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Glacier2",
     "java:package:com.zeroc",
   ],
@@ -324,13 +327,14 @@ Object {
 exports[`Built-in slices Glacier2/Router.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "cpp:header-ext:h",
     "cpp:dll-export:GLACIER2_API",
-    "objc:header-dir:objc",
-    "objc:dll-export:GLACIER2_API",
-    "js:ice-build",
-    "python:pkgdir:Glacier2",
+    "cpp:doxygen:include:Glacier2/Glacier2.h",
+    "cpp:header-ext:h",
     "cpp:include:Glacier2/Config.h",
+    "js:module:ice",
+    "objc:dll-export:GLACIER2_API",
+    "objc:header-dir:objc",
+    "python:pkgdir:Glacier2",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -548,7 +552,7 @@ NOTE: This method is only available since Ice 3.6.
               "type": "operation",
             },
           ],
-          "doc": "The Glacier2 specialization of the <tt>Ice::Router</tt> interface.",
+          "doc": "The Glacier2 specialization of the <code>Ice::Router</code> interface.",
           "extends": Array [
             "Ice::Router",
           ],
@@ -576,11 +580,12 @@ security solution that is both non-intrusive and easy to configure.",
 exports[`Built-in slices Glacier2/RouterF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "cpp:header-ext:h",
     "cpp:dll-export:GLACIER2_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Glacier2/Glacier2.h",
+    "cpp:header-ext:h",
+    "js:module:ice",
     "objc:dll-export:GLACIER2_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Glacier2",
     "java:package:com.zeroc",
   ],
@@ -611,13 +616,14 @@ Object {
 exports[`Built-in slices Glacier2/SSLInfo.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "cpp:header-ext:h",
     "cpp:dll-export:GLACIER2_API",
-    "objc:header-dir:objc",
-    "objc:dll-export:GLACIER2_API",
-    "js:ice-build",
-    "python:pkgdir:Glacier2",
+    "cpp:doxygen:include:Glacier2/Glacier2.h",
+    "cpp:header-ext:h",
     "cpp:include:Glacier2/Config.h",
+    "js:module:ice",
+    "objc:dll-export:GLACIER2_API",
+    "objc:header-dir:objc",
+    "python:pkgdir:Glacier2",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -693,13 +699,14 @@ Object {
 exports[`Built-in slices Glacier2/Session.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "cpp:header-ext:h",
     "cpp:dll-export:GLACIER2_API",
-    "objc:header-dir:objc",
-    "objc:dll-export:GLACIER2_API",
-    "js:ice-build",
-    "python:pkgdir:Glacier2",
+    "cpp:doxygen:include:Glacier2/Glacier2.h",
+    "cpp:header-ext:h",
     "cpp:include:Glacier2/Config.h",
+    "js:module:ice",
+    "objc:dll-export:GLACIER2_API",
+    "objc:header-dir:objc",
+    "python:pkgdir:Glacier2",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -1107,12 +1114,13 @@ application, no client-visible sessions are passed to the client.
 exports[`Built-in slices Ice/BuiltinSequences.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -1226,11 +1234,13 @@ Object {
 exports[`Built-in slices Ice/Communicator.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -1265,6 +1275,7 @@ adapters. Subsequent calls to {@link #destroy} are ignored.
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:noexcept",
+                "js:async",
               ],
               "name": "destroy",
               "parameters": Array [],
@@ -1274,22 +1285,24 @@ adapters. Subsequent calls to {@link #destroy} are ignored.
               "type": "operation",
             },
             Object {
-              "doc": "<p>Shuts down this communicator's server functionality, which
-includes the deactivation of all object adapters. (Attempts to use
-a deactivated object adapter raise {@link ObjectAdapterDeactivatedException}.)
-Subsequent calls to {@link #shutdown} are ignored.</p>
+              "doc": "Shuts down this communicator's server functionality, which
+includes the deactivation of all object adapters. Attempts to use a
+deactivated object adapter raise ObjectAdapterDeactivatedException.
+Subsequent calls to shutdown are ignored.
 
-<p class=\\"Note\\"> After {@link #shutdown} returns, no new requests are
-processed. However, requests that have been started before
-{@link #shutdown} was called might still be active. You can use
-{@link #waitForShutdown} to wait for the completion of all
+After shutdown returns, no new requests are processed. However, requests
+that have been started before shutdown was called might still be active.
+You can use {@link #waitForShutdown} to wait for the completion of all
 requests.
 
 @see #destroy
 @see #waitForShutdown
 @see ObjectAdapter#deactivate",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+                "js:async",
+              ],
               "name": "shutdown",
               "parameters": Array [],
               "returnOptional": undefined,
@@ -1301,21 +1314,23 @@ requests.
               "doc": "Wait until the application has called {@link #shutdown} (or {@link #destroy}).
 On the server side, this operation blocks the calling thread
 until all currently-executing operations have completed.
-On the client side, the operation simply block until another
+On the client side, the operation simply blocks until another
 thread has called {@link #shutdown} or {@link #destroy}.
 
-<p>A typical use of this operation is to call it
-from the main thread, which then waits until some other thread
-calls {@link #shutdown}. After shut-down is complete, the main thread
-returns and can do some cleanup work before it finally calls
-{@link #destroy} to shut down the client functionality, and then
-exits the application.
+A typical use of this operation is to call it from the main thread,
+which then waits until some other thread calls {@link #shutdown}.
+After shut-down is complete, the main thread returns and can do some
+cleanup work before it finally calls {@link #destroy} to shut down
+the client functionality, and then exits the application.
 
 @see #shutdown
 @see #destroy
 @see ObjectAdapter#waitForDeactivate",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+                "js:async",
+              ],
               "name": "waitForShutdown",
               "parameters": Array [],
               "returnOptional": undefined,
@@ -1332,6 +1347,7 @@ exits the application.
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "isShutdown",
               "parameters": Array [],
@@ -1342,19 +1358,18 @@ exits the application.
             },
             Object {
               "doc": "Convert a stringified proxy into a proxy. For example,
-<tt>MyCategory/MyObject:tcp -h some_host -p
-10000</tt> creates a proxy that refers to the Ice object
+<code>MyCategory/MyObject:tcp -h some_host -p
+10000</code> creates a proxy that refers to the Ice object
 having an identity with a name \\"MyObject\\" and a category
 \\"MyCategory\\", with the server running on host \\"some_host\\", port
 10000. If the stringified proxy does not parse correctly, the
-operation throws one of {@link ProxyParseException},
-{@link EndpointParseException}, or {@link IdentityParseException}.
-An appendix in the Ice manual provides a detailed description
-of the syntax supported by stringified proxies.
+operation throws one of ProxyParseException, EndpointParseException,
+or IdentityParseException. Refer to the Ice manual for a detailed
+description of the syntax supported by stringified proxies.
 
 @param str The stringified proxy to convert into a proxy.
 
-@return The proxy, or nil if <tt>str</tt> is an empty string.
+@return The proxy, or nil if <code>str</code> is an empty string.
 
 @see #proxyToString",
               "idempotent": undefined,
@@ -1382,7 +1397,7 @@ of the syntax supported by stringified proxies.
 @param obj The proxy to convert into a stringified proxy.
 
 @return The stringified proxy, or an empty string if
-<tt>obj</tt> is nil.
+<code>obj</code> is nil.
 
 @see #stringToProxy",
               "idempotent": undefined,
@@ -1406,11 +1421,11 @@ of the syntax supported by stringified proxies.
             },
             Object {
               "doc": "Convert a set of proxy properties into a proxy. The \\"base\\"
-name supplied in the <tt>property</tt> argument refers to a
+name supplied in the <code>property</code> argument refers to a
 property containing a stringified proxy, such as
-<tt>MyProxy=id:tcp -h localhost -p 10000</tt>. Additional
+<code>MyProxy=id:tcp -h localhost -p 10000</code>. Additional
 properties configure local settings for the proxy, such as
-<tt>MyProxy.PreferSecure=1</tt>. The \\"Properties\\"
+<code>MyProxy.PreferSecure=1</code>. The \\"Properties\\"
 appendix in the Ice manual describes each of the supported
 proxy properties.
 
@@ -1472,7 +1487,7 @@ proxy properties.
             },
             Object {
               "doc": "Convert a string into an identity. If the string does not parse
-correctly, the operation throws {@link IdentityParseException}.
+correctly, the operation throws IdentityParseException.
 
 @param str The string to convert into an identity.
 
@@ -1527,16 +1542,16 @@ correctly, the operation throws {@link IdentityParseException}.
               "type": "operation",
             },
             Object {
-              "doc": "<p>Create a new object adapter. The endpoints for the object
-adapter are taken from the property <tt><em>name</em>.Endpoints</tt>.</p>
+              "doc": "Create a new object adapter. The endpoints for the object
+adapter are taken from the property <code><em>name</em>.Endpoints</code>.
 
-<p>It is legal to create an object adapter with the empty string as
+It is legal to create an object adapter with the empty string as
 its name. Such an object adapter is accessible via bidirectional
 connections or by collocated invocations that originate from the
-same communicator as is used by the adapter.</p>
+same communicator as is used by the adapter.
 
-<p>Attempts to create a named object adapter for which no configuration
-can be found raise {@link InitializationException}.
+Attempts to create a named object adapter for which no configuration
+can be found raise InitializationException.
 
 @param name The object adapter name.
 
@@ -1546,7 +1561,9 @@ can be found raise {@link InitializationException}.
 @see ObjectAdapter
 @see Properties",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "js:async",
+              ],
               "name": "createObjectAdapter",
               "parameters": Array [
                 Object {
@@ -1563,12 +1580,12 @@ can be found raise {@link InitializationException}.
               "type": "operation",
             },
             Object {
-              "doc": "<p>Create a new object adapter with endpoints. This operation sets
-the property <tt><em>name</em>.Endpoints</tt>,
-and then calls {@link #createObjectAdapter}. It is provided as a
-convenience function.</p>
+              "doc": "Create a new object adapter with endpoints. This operation sets
+the property <code><em>name</em>.Endpoints</code>, and then calls
+{@link #createObjectAdapter}. It is provided as a convenience
+function.
 
-<p>Calling this operation with an empty name will result in a
+Calling this operation with an empty name will result in a
 UUID being generated for the name.
 
 @param name The object adapter name.
@@ -1581,7 +1598,9 @@ UUID being generated for the name.
 @see ObjectAdapter
 @see Properties",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "js:async",
+              ],
               "name": "createObjectAdapterWithEndpoints",
               "parameters": Array [
                 Object {
@@ -1605,10 +1624,10 @@ UUID being generated for the name.
               "type": "operation",
             },
             Object {
-              "doc": "<p>Create a new object adapter with a router. This operation
-creates a routed object adapter.</p>
+              "doc": "Create a new object adapter with a router. This operation
+creates a routed object adapter.
 
-<p>Calling this operation with an empty name will result in a
+Calling this operation with an empty name will result in a
 UUID being generated for the name.
 
 @param name The object adapter name.
@@ -1621,7 +1640,9 @@ UUID being generated for the name.
 @see ObjectAdapter
 @see Properties",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "js:async",
+              ],
               "name": "createObjectAdapterWithRouter",
               "parameters": Array [
                 Object {
@@ -1647,27 +1668,26 @@ UUID being generated for the name.
               "type": "operation",
             },
             Object {
-              "doc": "<p>Add an object factory to this communicator. Installing a
+              "doc": "Add an object factory to this communicator. Installing a
 factory with an id for which a factory is already registered
-throws {@link AlreadyRegisteredException}.</p>
+throws AlreadyRegisteredException.
 
-<p>When unmarshaling an Ice object, the Ice run time reads the
+When unmarshaling an Ice object, the Ice run time reads the
 most-derived type id off the wire and attempts to create an
 instance of the type using a factory. If no instance is created,
 either because no factory was found, or because all factories
 returned nil, the behavior of the Ice run time depends on the
-format with which the object was marshaled:</p>
+format with which the object was marshaled:
 
-<p>If the object uses the \\"sliced\\" format, Ice ascends the class
+If the object uses the \\"sliced\\" format, Ice ascends the class
 hierarchy until it finds a type that is recognized by a factory,
 or it reaches the least-derived type. If no factory is found that
-can create an instance, the run time throws
-{@link NoValueFactoryException}.</p>
+can create an instance, the run time throws NoValueFactoryException.
 
-<p>If the object uses the \\"compact\\" format, Ice immediately raises
-{@link NoValueFactoryException}.</p>
+If the object uses the \\"compact\\" format, Ice immediately raises
+NoValueFactoryException.
 
-<p>The following order is used to locate a factory for a type:</p>
+The following order is used to locate a factory for a type:
 
 <ol>
 
@@ -1736,6 +1756,7 @@ found for the given id.
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
                 "deprecate:findObjectFactory() is deprecated, use ValueFactoryManager::find() instead.",
               ],
               "name": "findObjectFactory",
@@ -1762,6 +1783,7 @@ or is set to None.",
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "getImplicitContext",
               "parameters": Array [],
@@ -1779,6 +1801,7 @@ or is set to None.",
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "getProperties",
               "parameters": Array [],
@@ -1796,6 +1819,7 @@ or is set to None.",
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "getLogger",
               "parameters": Array [],
@@ -1811,11 +1835,12 @@ or is set to None.",
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "getObserver",
               "parameters": Array [],
               "returnOptional": undefined,
-              "returnType": "Ice::Instrumentation::CommunicatorObserver",
+              "returnType": "Instrumentation::CommunicatorObserver",
               "throws": undefined,
               "type": "operation",
             },
@@ -1838,13 +1863,13 @@ or is set to None.",
               "type": "operation",
             },
             Object {
-              "doc": "<p>Set a default router for this communicator. All newly
+              "doc": "Set a default router for this communicator. All newly
 created proxies will use this default router. To disable the
 default router, null can be used. Note that this
-operation has no effect on existing proxies.</p>
+operation has no effect on existing proxies.
 
-<p class=\\"Note\\">You can also set a router for an individual proxy
-by calling the operation <tt>ice_router</tt> on the proxy.
+You can also set a router for an individual proxy
+by calling the operation <code>ice_router</code> on the proxy.
 
 @param rtr The default router to use for this communicator.
 
@@ -1887,16 +1912,15 @@ by calling the operation <tt>ice_router</tt> on the proxy.
               "type": "operation",
             },
             Object {
-              "doc": "<p>Set a default Ice locator for this communicator. All newly
+              "doc": "Set a default Ice locator for this communicator. All newly
 created proxy and object adapters will use this default
 locator. To disable the default locator, null can be used.
 Note that this operation has no effect on existing proxies or
-object adapters.</p>
+object adapters.
 
-<p class=\\"Note\\"> You can also set a locator for an individual proxy
-by calling the operation <tt>ice_locator</tt> on the proxy, or for an
-object adapter by calling the operation {@link ObjectAdapter#setLocator}
-on the object adapter.
+You can also set a locator for an individual proxy by calling the
+operation <code>ice_locator</code> on the proxy, or for an object adapter
+by calling {@link ObjectAdapter#setLocator} on the object adapter.
 
 @param loc The default locator to use for this communicator.
 
@@ -1946,6 +1970,7 @@ on the object adapter.
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "getValueFactoryManager",
               "parameters": Array [],
@@ -1986,7 +2011,7 @@ should be compressed before being sent over the wire.",
 If Ice.Admin.ServerId is set and the provided object adapter has a {@link Locator},
 createAdmin registers the Admin's Process facet with the {@link Locator}'s {@link LocatorRegistry}.
 
-<p>createAdmin call only be called once; subsequent calls raise {@link InitializationException}.</p>
+createAdmin call only be called once; subsequent calls raise InitializationException.
 
 @param adminAdapter The object adapter used to host the Admin object; if null and
 Ice.Admin.Endpoints is set, create, activate and use the Ice.Admin object adapter.
@@ -2021,21 +2046,20 @@ Ice.Admin.Endpoints is set, create, activate and use the Ice.Admin object adapte
               "type": "operation",
             },
             Object {
-              "doc": "*
-* Get a proxy to the main facet of the Admin object.
-*
-* getAdmin also creates the Admin object and creates and activates the Ice.Admin object
-* adapter to host this Admin object if Ice.Admin.Enpoints is set. The identity of the Admin
-* object created by getAdmin is {value of Ice.Admin.InstanceName}/admin, or {UUID}/admin
-* when Ice.Admin.InstanceName is not set.
-*
-* <p>If Ice.Admin.DelayCreation is 0 or not set, getAdmin is called by the communicator
-* initialization, after initialization of all plugins.</p>
+              "doc": "Get a proxy to the main facet of the Admin object.
 
-* @return A proxy to the main (\\"\\") facet of the Admin object, or a null proxy if no
-* Admin object is configured.
-*
-* @see #createAdmin",
+getAdmin also creates the Admin object and creates and activates the Ice.Admin object
+adapter to host this Admin object if Ice.Admin.Enpoints is set. The identity of the Admin
+object created by getAdmin is {value of Ice.Admin.InstanceName}/admin, or {UUID}/admin
+when Ice.Admin.InstanceName is not set.
+
+If Ice.Admin.DelayCreation is 0 or not set, getAdmin is called by the communicator
+initialization, after initialization of all plugins.
+
+@return A proxy to the main (\\"\\") facet of the Admin object, or a null proxy if no
+Admin object is configured.
+
+@see #createAdmin",
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
@@ -2050,7 +2074,7 @@ Ice.Admin.Endpoints is set, create, activate and use the Ice.Admin object adapte
             Object {
               "doc": "Add a new facet to the Admin object.
 Adding a servant with a facet that is already registered
-throws {@link AlreadyRegisteredException}.
+throws AlreadyRegisteredException.
 
 @param servant The servant that implements the new Admin facet.
 @param facet The name of the new Admin facet.",
@@ -2081,7 +2105,7 @@ throws {@link AlreadyRegisteredException}.
             Object {
               "doc": "Remove the following facet to the Admin object.
 Removing a facet that was not previously registered throws
-{@link NotRegisteredException}.
+NotRegisteredException.
 
 @param facet The name of the Admin facet.
 @return The servant associated with this Admin facet.",
@@ -2149,14 +2173,12 @@ is language-specific, and not specified in Slice code.
 @see Logger
 @see ObjectAdapter
 @see Properties
-@see ObjectFactory
 @see ValueFactory",
           "extends": undefined,
           "local": true,
           "metadata": Array [
-            "clr:implements:_System.IDisposable",
+            "clr:implements:global::System.IDisposable",
             "java:implements:java.lang.AutoCloseable",
-            "php:internal",
           ],
           "name": "Communicator",
           "type": "interface",
@@ -2209,11 +2231,13 @@ an octal escape. Use this mode to generate strings compatible with Ice 3.6 and e
 exports[`Built-in slices Ice/CommunicatorF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -2244,12 +2268,13 @@ Object {
 exports[`Built-in slices Ice/Connection.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -2329,12 +2354,10 @@ connection.",
               "type": "field",
             },
           ],
-          "doc": "Base class providing access to the connection details. *",
+          "doc": "Base class providing access to the connection details.",
           "extends": undefined,
           "local": true,
-          "metadata": Array [
-            "php:internal",
-          ],
+          "metadata": undefined,
           "name": "ConnectionInfo",
           "type": "class",
         },
@@ -2548,7 +2571,10 @@ On the server side, the connection will not be closed until all incoming invocat
 
 @see ConnectionClose",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+                "js:async",
+              ],
               "name": "close",
               "parameters": Array [
                 Object {
@@ -2609,7 +2635,8 @@ because of firewalls.
 @param adapter The object adapter that should be used by this
 connection to dispatch requests. The object adapter must be
 activated. When the object adapter is deactivated, it is
-automatically removed from the connection.
+automatically removed from the connection. Attempts to use a
+deactivated object adapter raise {@link ObjectAdapterDeactivatedException}
 
 @see #createProxy
 @see #getAdapter",
@@ -2641,6 +2668,7 @@ connection, or null if no adapter is set.
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "getAdapter",
               "parameters": Array [],
@@ -2656,6 +2684,7 @@ connection, or null if no adapter is set.
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "getEndpoint",
               "parameters": Array [],
@@ -2753,7 +2782,8 @@ from the Ice thread pool associated with the connection.
             Object {
               "doc": "Set the active connection management parameters.
 
-@param timeout The timeout value in milliseconds.
+@param timeout The timeout value in seconds. It must be positive or 0, if a negative
+value is given, an invalid argument exception will be raised.
 
 @param close The close condition
 
@@ -2796,7 +2826,9 @@ from the Ice thread pool associated with the connection.
 
 @return The ACM parameters.",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "getACM",
               "parameters": Array [],
               "returnOptional": undefined,
@@ -2812,6 +2844,7 @@ type, i.e., \\"tcp\\", \\"udp\\", etc.
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "type",
               "parameters": Array [],
@@ -2827,6 +2860,7 @@ type, i.e., \\"tcp\\", \\"udp\\", etc.
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "timeout",
               "parameters": Array [],
@@ -2844,6 +2878,7 @@ text.",
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "toString",
               "parameters": Array [],
@@ -2917,9 +2952,7 @@ not yet closed.",
           "doc": "The user-level interface to a connection.",
           "extends": undefined,
           "local": true,
-          "metadata": Array [
-            "php:internal",
-          ],
+          "metadata": undefined,
           "name": "Connection",
           "type": "interface",
         },
@@ -2965,9 +2998,7 @@ not yet closed.",
           "doc": "Provides access to the connection details of an IP connection",
           "extends": "ConnectionInfo",
           "local": true,
-          "metadata": Array [
-            "php:internal",
-          ],
+          "metadata": undefined,
           "name": "IPConnectionInfo",
           "type": "class",
         },
@@ -2995,9 +3026,7 @@ not yet closed.",
           "doc": "Provides access to the connection details of a TCP connection",
           "extends": "IPConnectionInfo",
           "local": true,
-          "metadata": Array [
-            "php:internal",
-          ],
+          "metadata": undefined,
           "name": "TCPConnectionInfo",
           "type": "class",
         },
@@ -3043,9 +3072,7 @@ not yet closed.",
           "doc": "Provides access to the connection details of a UDP connection",
           "extends": "IPConnectionInfo",
           "local": true,
-          "metadata": Array [
-            "php:internal",
-          ],
+          "metadata": undefined,
           "name": "UDPConnectionInfo",
           "type": "class",
         },
@@ -3075,9 +3102,7 @@ not yet closed.",
           "doc": "Provides access to the connection details of a WebSocket connection",
           "extends": "ConnectionInfo",
           "local": true,
-          "metadata": Array [
-            "php:internal",
-          ],
+          "metadata": undefined,
           "name": "WSConnectionInfo",
           "type": "class",
         },
@@ -3097,12 +3122,13 @@ not yet closed.",
 exports[`Built-in slices Ice/ConnectionF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -3147,12 +3173,13 @@ Object {
 exports[`Built-in slices Ice/Current.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -3166,9 +3193,9 @@ Object {
     Object {
       "content": Array [
         Object {
-          "doc": "A request context. <tt>Context</tt> is used to transmit metadata about a
+          "doc": "A request context. <code>Context</code> is used to transmit metadata about a
 request from the server to the client, such as Quality-of-Service
-(QoS) parameters. Each operation on the client has a <tt>Context</tt> as
+(QoS) parameters. Each operation on the client has a <code>Context</code> as
 its implicit final parameter.",
           "keyType": "string",
           "keyTypeMetadata": undefined,
@@ -3204,8 +3231,8 @@ its implicit final parameter.",
         },
         Object {
           "doc": "Information about the current method invocation for servers. Each
-operation on the server has a <tt>Current</tt> as its implicit final
-parameter. <tt>Current</tt> is mostly used for Ice services. Most
+operation on the server has a <code>Current</code> as its implicit final
+parameter. <code>Current</code> is mostly used for Ice services. Most
 applications ignore this parameter.",
           "fields": Array [
             Object {
@@ -3267,7 +3294,7 @@ collocation optimization, this value is set to null.",
               "name": "requestId",
             },
             Object {
-              "dataType": "Ice::EncodingVersion",
+              "dataType": "EncodingVersion",
               "defaultValue": undefined,
               "doc": "The encoding version used to encode the input and output parameters.",
               "metadata": undefined,
@@ -3295,12 +3322,13 @@ collocation optimization, this value is set to null.",
 exports[`Built-in slices Ice/Endpoint.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -3413,6 +3441,7 @@ non-blocking, -1 means no timeout.",
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "type",
               "parameters": Array [],
@@ -3428,6 +3457,7 @@ non-blocking, -1 means no timeout.",
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "datagram",
               "parameters": Array [],
@@ -3443,6 +3473,7 @@ non-blocking, -1 means no timeout.",
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "secure",
               "parameters": Array [],
@@ -3455,9 +3486,7 @@ non-blocking, -1 means no timeout.",
           "doc": "Base class providing access to the endpoint details.",
           "extends": undefined,
           "local": true,
-          "metadata": Array [
-            "php:internal",
-          ],
+          "metadata": undefined,
           "name": "EndpointInfo",
           "type": "class",
         },
@@ -3470,6 +3499,7 @@ non-blocking, -1 means no timeout.",
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "toString",
               "parameters": Array [],
@@ -3485,6 +3515,7 @@ non-blocking, -1 means no timeout.",
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "getInfo",
               "parameters": Array [],
@@ -3499,7 +3530,7 @@ non-blocking, -1 means no timeout.",
           "local": true,
           "metadata": Array [
             "cpp:comparable",
-            "php:internal",
+            "js:comparable",
           ],
           "name": "Endpoint",
           "type": "interface",
@@ -3539,9 +3570,7 @@ non-blocking, -1 means no timeout.",
 @see Endpoint",
           "extends": "EndpointInfo",
           "local": true,
-          "metadata": Array [
-            "php:internal",
-          ],
+          "metadata": undefined,
           "name": "IPEndpointInfo",
           "type": "class",
         },
@@ -3552,9 +3581,7 @@ non-blocking, -1 means no timeout.",
 @see Endpoint",
           "extends": "IPEndpointInfo",
           "local": true,
-          "metadata": Array [
-            "php:internal",
-          ],
+          "metadata": undefined,
           "name": "TCPEndpointInfo",
           "type": "class",
         },
@@ -3584,9 +3611,7 @@ non-blocking, -1 means no timeout.",
 @see Endpoint",
           "extends": "IPEndpointInfo",
           "local": true,
-          "metadata": Array [
-            "php:internal",
-          ],
+          "metadata": undefined,
           "name": "UDPEndpointInfo",
           "type": "class",
         },
@@ -3605,16 +3630,14 @@ non-blocking, -1 means no timeout.",
           "doc": "Provides access to a WebSocket endpoint information.",
           "extends": "EndpointInfo",
           "local": true,
-          "metadata": Array [
-            "php:internal",
-          ],
+          "metadata": undefined,
           "name": "WSEndpointInfo",
           "type": "class",
         },
         Object {
           "content": Array [
             Object {
-              "dataType": "Ice::EncodingVersion",
+              "dataType": "EncodingVersion",
               "defaultValue": undefined,
               "doc": "The encoding version of the opaque endpoint (to decode or
 encode the rawBytes).",
@@ -3624,7 +3647,7 @@ encode the rawBytes).",
               "type": "field",
             },
             Object {
-              "dataType": "Ice::ByteSeq",
+              "dataType": "ByteSeq",
               "defaultValue": undefined,
               "doc": "The raw encoding of the opaque endpoint.",
               "metadata": undefined,
@@ -3638,9 +3661,7 @@ encode the rawBytes).",
 @see Endpoint",
           "extends": "EndpointInfo",
           "local": true,
-          "metadata": Array [
-            "php:internal",
-          ],
+          "metadata": undefined,
           "name": "OpaqueEndpointInfo",
           "type": "class",
         },
@@ -3660,12 +3681,13 @@ encode the rawBytes).",
 exports[`Built-in slices Ice/EndpointF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -3740,12 +3762,13 @@ Object {
 exports[`Built-in slices Ice/EndpointTypes.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -3788,11 +3811,13 @@ in a proxy when establishing a connection.",
 exports[`Built-in slices Ice/FacetMap.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -3827,12 +3852,13 @@ Object {
 exports[`Built-in slices Ice/Identity.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -3904,11 +3930,13 @@ is illegal. You cannot add a servant with an empty name to the Active Servant Ma
 exports[`Built-in slices Ice/ImplicitContext.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -4067,25 +4095,25 @@ no value at all.
           ],
           "doc": "An interface to associate implict contexts with communicators.
 
-<p>When you make a remote invocation without an explicit context parameter,
-Ice uses the per-proxy context (if any) combined with the <tt>ImplicitContext</tt>
-associated with the communicator.</p>
+When you make a remote invocation without an explicit context parameter,
+Ice uses the per-proxy context (if any) combined with the <code>ImplicitContext</code>
+associated with the communicator.
 
-<p>Ice provides several implementations of <tt>ImplicitContext</tt>. The implementation
-used depends on the value of the <tt>Ice.ImplicitContext</tt> property.
+Ice provides several implementations of <code>ImplicitContext</code>. The implementation
+used depends on the value of the <code>Ice.ImplicitContext</code> property.
 <dl>
-<dt><tt>None</tt> (default)</dt>
+<dt><code>None</code> (default)</dt>
 <dd>No implicit context at all.</dd>
-<dt><tt>PerThread</tt></dt>
+<dt><code>PerThread</code></dt>
 <dd>The implementation maintains a context per thread.</dd>
-<dt><tt>Shared</tt></dt>
+<dt><code>Shared</code></dt>
 <dd>The implementation maintains a single context shared by all threads.</dd>
-</dl><p>
+</dl>
 
-<tt>ImplicitContext</tt> also provides a number of operations to create, update or retrieve
+<code>ImplicitContext</code> also provides a number of operations to create, update or retrieve
 an entry in the underlying context without first retrieving a copy of the entire
-context. These operations correspond to a subset of the <tt>java.util.Map</tt> methods,
-with <tt>java.lang.Object</tt> replaced by <tt>string</tt> and null replaced by the empty-string.",
+context. These operations correspond to a subset of the <code>java.util.Map</code> methods,
+with <code>java.lang.Object</code> replaced by <code>string</code> and null replaced by the empty-string.",
           "extends": undefined,
           "local": true,
           "metadata": undefined,
@@ -4111,9 +4139,11 @@ Object {
     "ice-prefix",
     "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
+    "cpp:doxygen:include:Ice/Ice.h",
     "objc:header-dir:objc",
     "objc:dll-export:ICE_API",
     "python:pkgdir:Ice",
+    "js:module:ice",
     "java:package:com.zeroc",
   ],
   "includes": undefined,
@@ -4143,11 +4173,13 @@ Object {
 exports[`Built-in slices Ice/Instrumentation.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -4982,11 +5014,13 @@ Ice core internal components (threads, connections, etc).",
 exports[`Built-in slices Ice/InstrumentationF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -5034,12 +5068,13 @@ Object {
 exports[`Built-in slices Ice/LocalException.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -5112,9 +5147,9 @@ supported with collocation optimization.",
             Object {
               "dataType": "string",
               "defaultValue": undefined,
-              "doc": "The kind of object that is registered already: \\"servant\\",
-\\"servant locator\\", \\"value factory\\", \\"plug-in\\",
-\\"object adapter\\", \\"object\\", or \\"user exception factory\\".",
+              "doc": "The kind of object that could not be removed: \\"servant\\", \\"facet\\",
+\\"object\\", \\"default servant\\", \\"servant locator\\", \\"value factory\\", \\"plugin\\",
+\\"object adapter\\", \\"object adapter with router\\", \\"replica group\\".",
               "metadata": undefined,
               "name": "kindOfObject",
               "optional": undefined,
@@ -5150,9 +5185,9 @@ same ID.",
             Object {
               "dataType": "string",
               "defaultValue": undefined,
-              "doc": "The kind of object that could not be removed: \\"servant\\",
-\\"servant locator\\", \\"value factory\\", \\"plug-in\\",
-\\"object adapter\\", \\"object\\", or \\"user exception factory\\".",
+              "doc": "The kind of object that could not be removed: \\"servant\\", \\"facet\\",
+\\"object\\", \\"default servant\\", \\"servant locator\\", \\"value factory\\", \\"plugin\\",
+\\"object adapter\\", \\"object adapter with router\\", \\"replica group\\".",
               "metadata": undefined,
               "name": "kindOfObject",
               "optional": undefined,
@@ -5201,8 +5236,8 @@ is activated.",
           "doc": "The operation can only be invoked with a twoway request.
 
 This exception is raised if an attempt is made to invoke an
-operation with <tt>ice_oneway</tt>, <tt>ice_batchOneway</tt>, <tt>ice_datagram</tt>,
-or <tt>ice_batchDatagram</tt> and the operation has a return value,
+operation with <code>ice_oneway</code>, <code>ice_batchOneway</code>, <code>ice_datagram</code>,
+or <code>ice_batchDatagram</code> and the operation has a return value,
 out-parameters, or an exception specification.",
           "extends": undefined,
           "local": true,
@@ -5217,10 +5252,10 @@ out-parameters, or an exception specification.",
           "doc": "An attempt was made to clone a class that does not support
 cloning.
 
-This exception is raised if <tt>ice_clone</tt> is called on
+This exception is raised if <code>ice_clone</code> is called on
 a class that is derived from an abstract Slice class (that is,
 a class containing operations), and the derived class does not
-provide an implementation of the <tt>ice_clone</tt> operation (C++ only).",
+provide an implementation of the <code>ice_clone</code> operation (C++ only).",
           "extends": undefined,
           "local": true,
           "metadata": Array [
@@ -5245,8 +5280,8 @@ exception if available.",
           "doc": "This exception is raised if an operation call on a server raises an
 unknown exception. For example, for C++, this exception is raised
 if the server throws a C++ exception that is not directly or
-indirectly derived from <tt>Ice::LocalException</tt> or
-<tt>Ice::UserException</tt>.",
+indirectly derived from <code>Ice::LocalException</code> or
+<code>Ice::UserException</code>.",
           "extends": undefined,
           "local": true,
           "metadata": Array [
@@ -5263,7 +5298,7 @@ the Ice protocol, the client receives all local exceptions raised
 by the server as {@link UnknownLocalException}. The only exception to this
 rule are all exceptions derived from {@link RequestFailedException},
 which are transmitted by the Ice protocol even though they are
-declared <tt>local</tt>.",
+declared <code>local</code>.",
           "extends": "UnknownException",
           "local": true,
           "metadata": Array [
@@ -5278,13 +5313,13 @@ declared <tt>local</tt>.",
 
 This exception is raised if an operation raises a
 user exception that is not declared in the exception's
-<tt>throws</tt> clause. Such undeclared exceptions are
+<code>throws</code> clause. Such undeclared exceptions are
 not transmitted from the server to the client by the Ice
 protocol, but instead the client just gets an
 {@link UnknownUserException}. This is necessary in order to not violate
 the contract established by an operation's signature: Only local
 exceptions and user exceptions declared in the
-<tt>throws</tt> clause can be raised.",
+<code>throws</code> clause can be raised.",
           "extends": "UnknownException",
           "local": true,
           "metadata": Array [
@@ -5575,7 +5610,7 @@ a null servant)",
           "doc": "This exception is raised if a request failed. This exception, and
 all exceptions derived from {@link RequestFailedException}, are
 transmitted by the Ice protocol, even though they are declared
-<tt>local</tt>.",
+<code>local</code>.",
           "extends": undefined,
           "local": true,
           "metadata": Array [
@@ -5627,10 +5662,10 @@ client or the server using an outdated Slice specification.",
               "dataType": "int",
               "defaultValue": "0",
               "doc": "The error number describing the system exception. For C++ and
-Unix, this is equivalent to <tt>errno</tt>. For C++
+Unix, this is equivalent to <code>errno</code>. For C++
 and Windows, this is the value returned by
-<tt>GetLastError()</tt> or
-<tt>WSAGetLastError()</tt>.",
+<code>GetLastError()</code> or
+<code>WSAGetLastError()</code>.",
               "metadata": undefined,
               "name": "error",
               "optional": undefined,
@@ -5742,9 +5777,9 @@ the server host actively refuses a connection.",
               "dataType": "int",
               "defaultValue": "0",
               "doc": "The error number describing the DNS problem. For C++ and Unix,
-this is equivalent to <tt>h_errno</tt>. For C++ and
+this is equivalent to <code>h_errno</code>. For C++ and
 Windows, this is the value returned by
-<tt>WSAGetLastError()</tt>.",
+<code>WSAGetLastError()</code>.",
               "metadata": undefined,
               "name": "error",
               "optional": undefined,
@@ -6180,7 +6215,7 @@ an operation is subscribed to the wrong topic.",
           "content": Array [],
           "doc": "This exception is raised when Ice receives a request or reply
 message whose size exceeds the limit specified by the
-<tt>Ice.MessageSizeMax</tt> property.",
+<code>Ice.MessageSizeMax</code> property.",
           "extends": "MarshalException",
           "local": true,
           "metadata": Array [
@@ -6297,12 +6332,13 @@ re-dispatching such a request is not possible.",
 exports[`Built-in slices Ice/Locator.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -6389,7 +6425,7 @@ be found.",
               "name": "findObjectById",
               "parameters": Array [
                 Object {
-                  "dataType": "Ice::Identity",
+                  "dataType": "Identity",
                   "metadata": undefined,
                   "name": "id",
                   "optional": undefined,
@@ -6668,11 +6704,13 @@ the service.",
 exports[`Built-in slices Ice/LocatorF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -6710,11 +6748,13 @@ Object {
 exports[`Built-in slices Ice/Logger.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -6879,11 +6919,13 @@ by implementing this interface and installing it in a communicator.",
 exports[`Built-in slices Ice/LoggerF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -6914,12 +6956,13 @@ Object {
 exports[`Built-in slices Ice/Metrics.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -7408,8 +7451,7 @@ metrics are embedded within {@link InvocationMetrics}.",
         Object {
           "content": Array [],
           "doc": "Provides information on invocations that are specifically sent over
-Ice connections. Remote metrics are embedded within {@link
-InvocationMetrics}.",
+Ice connections. Remote metrics are embedded within {@link InvocationMetrics}.",
           "extends": "ChildInvocationMetrics",
           "local": undefined,
           "metadata": undefined,
@@ -7512,11 +7554,13 @@ connections.",
 exports[`Built-in slices Ice/ObjectAdapter.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -7540,6 +7584,7 @@ Object {
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "getName",
               "parameters": Array [],
@@ -7557,6 +7602,7 @@ Object {
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "getCommunicator",
               "parameters": Array [],
@@ -7573,7 +7619,9 @@ received through its endpoints.
 @see #hold
 @see #deactivate",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "js:async",
+              ],
               "name": "activate",
               "parameters": Array [],
               "returnOptional": undefined,
@@ -7611,7 +7659,9 @@ when holding of requests has been completed.
 @see #waitForDeactivate
 @see Communicator#waitForShutdown",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "js:async",
+              ],
               "name": "waitForHold",
               "parameters": Array [],
               "returnOptional": undefined,
@@ -7642,7 +7692,10 @@ for the completion of all requests for this object adapter.
 @see #waitForDeactivate
 @see Communicator#shutdown",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+                "js:async",
+              ],
               "name": "deactivate",
               "parameters": Array [],
               "returnOptional": undefined,
@@ -7660,7 +7713,10 @@ been completed.
 @see #waitForHold
 @see Communicator#waitForShutdown",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+                "js:async",
+              ],
               "name": "waitForDeactivate",
               "parameters": Array [],
               "returnOptional": undefined,
@@ -7677,6 +7733,7 @@ been completed.
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "isDeactivated",
               "parameters": Array [],
@@ -7699,6 +7756,7 @@ another object adapter with the same name.
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:noexcept",
+                "js:async",
               ],
               "name": "destroy",
               "parameters": Array [],
@@ -7753,7 +7811,7 @@ adapter.
               "type": "operation",
             },
             Object {
-              "doc": "Like {@link #add}, but with a facet. Calling <tt>add(servant, id)</tt>
+              "doc": "Like {@link #add}, but with a facet. Calling <code>add(servant, id)</code>
 is equivalent to calling {@link #addFacet} with an empty facet.
 
 @param servant The servant to add.
@@ -7808,7 +7866,7 @@ this object adapter.
               "doc": "Add a servant to this object adapter's Active Servant Map,
 using an automatically generated UUID as its identity. Note that
 the generated UUID identity can be accessed using the proxy's
-<tt>ice_getIdentity</tt> operation.
+<code>ice_getIdentity</code> operation.
 
 @param servant The servant to add.
 
@@ -7839,7 +7897,7 @@ this object adapter.
             },
             Object {
               "doc": "Like {@link #addWithUUID}, but with a facet. Calling
-<tt>addWithUUID(servant)</tt> is equivalent to calling
+<code>addWithUUID(servant)</code> is equivalent to calling
 {@link #addFacetWithUUID} with an empty facet.
 
 @param servant The servant to add.
@@ -7971,7 +8029,7 @@ Removing an identity that is not in the map throws
               "type": "operation",
             },
             Object {
-              "doc": "Like {@link #remove}, but with a facet. Calling <tt>remove(id)</tt>
+              "doc": "Like {@link #remove}, but with a facet. Calling <code>remove(id)</code>
 is equivalent to calling {@link #removeFacet} with an empty facet.
 
 @param id The identity of the Ice object that is implemented by
@@ -8103,7 +8161,7 @@ given identity, or null if no such servant has been found.
               "type": "operation",
             },
             Object {
-              "doc": "Like {@link #find}, but with a facet. Calling <tt>find(id)</tt>
+              "doc": "Like {@link #find}, but with a facet. Calling <code>find(id)</code>
 is equivalent to calling {@link #findFacet} with an empty
 facet.
 
@@ -8505,6 +8563,7 @@ used by this object adapter.
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "getLocator",
               "parameters": Array [],
@@ -8522,6 +8581,7 @@ used by this object adapter.
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "getEndpoints",
               "parameters": Array [],
@@ -8538,7 +8598,9 @@ on all endpoints. This operation is useful to refresh the endpoint
 information that is published in the proxies that are created by
 an object adapter if the network interfaces used by a host changes.",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "js:async",
+              ],
               "name": "refreshPublishedEndpoints",
               "parameters": Array [],
               "returnOptional": undefined,
@@ -8557,6 +8619,7 @@ adapter will contain.
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "getPublishedEndpoints",
               "parameters": Array [],
@@ -8622,12 +8685,13 @@ proxies.
 exports[`Built-in slices Ice/ObjectAdapterF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -8658,11 +8722,13 @@ Object {
 exports[`Built-in slices Ice/ObjectFactory.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -8676,10 +8742,10 @@ Object {
               "doc": "Create a new object for a given object type. The type is the
 absolute Slice type id, i.e., the id relative to the
 unnamed top-level Slice module. For example, the absolute
-Slice type id for interfaces of type <tt>Bar</tt> in the module
-<tt>Foo</tt> is <tt>::Foo::Bar</tt>.
+Slice type id for interfaces of type <code>Bar</code> in the module
+<code>Foo</code> is <code>\\"::Foo::Bar\\"</code>.
 
-<p class=\\"Note\\">The leading \\"<tt>::</tt>\\" is required.
+<p class=\\"Note\\">The leading \\"<code>::</code>\\" is required.
 
 @param type The object type.
 
@@ -8724,7 +8790,6 @@ with the communicator.",
           "local": true,
           "metadata": Array [
             "deprecate:ObjectFactory has been deprecated, use ValueFactory instead.",
-            "php:internal",
           ],
           "name": "ObjectFactory",
           "type": "interface",
@@ -8745,11 +8810,13 @@ with the communicator.",
 exports[`Built-in slices Ice/Plugin.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -8803,7 +8870,7 @@ each one.",
               "doc": "Initialize the configured plug-ins. The communicator automatically initializes
 the plug-ins by default, but an application may need to interact directly with
 a plug-in prior to initialization. In this case, the application must set
-<tt>Ice.InitPlugins=0</tt> and then invoke {@link #initializePlugins}
+<code>Ice.InitPlugins=0</code> and then invoke {@link #initializePlugins}
 manually. The plug-ins are initialized in the order in which they are loaded.
 If a plug-in raises an exception during initialization, the communicator
 invokes destroy on the plug-ins that have already been initialized.
@@ -8825,7 +8892,9 @@ invokes destroy on the plug-ins that have already been initialized.
 
 @see #getPlugin",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "getPlugins",
               "parameters": Array [],
               "returnOptional": undefined,
@@ -8893,7 +8962,9 @@ invokes destroy on the plug-ins that have already been initialized.
             Object {
               "doc": "Called when the communicator is being destroyed.",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "destroy",
               "parameters": Array [],
               "returnOptional": undefined,
@@ -8926,11 +8997,13 @@ plug-ins.",
 exports[`Built-in slices Ice/PluginF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -8968,12 +9041,13 @@ Object {
 exports[`Built-in slices Ice/Process.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -9057,12 +9131,13 @@ a secured endpoint.",
 exports[`Built-in slices Ice/ProcessF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -9093,11 +9168,13 @@ Object {
 exports[`Built-in slices Ice/Properties.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -9119,7 +9196,9 @@ string is returned.
 
 @see #setProperty",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "getProperty",
               "parameters": Array [
                 Object {
@@ -9148,7 +9227,9 @@ exist.
 
 @see #setProperty",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "getPropertyWithDefault",
               "parameters": Array [
                 Object {
@@ -9181,7 +9262,9 @@ is returned.
 
 @see #setProperty",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "getPropertyAsInt",
               "parameters": Array [
                 Object {
@@ -9211,7 +9294,9 @@ default value.
 
 @see #setProperty",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "getPropertyAsIntWithDefault",
               "parameters": Array [
                 Object {
@@ -9250,7 +9335,9 @@ O'Reilly, \\"O'Reilly\\" or 'O\\\\'Reilly'.
 
 @see #setProperty",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "getPropertyAsList",
               "parameters": Array [
                 Object {
@@ -9285,7 +9372,9 @@ default value.
 
 @see #setProperty",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "getPropertyAsListWithDefault",
               "parameters": Array [
                 Object {
@@ -9317,7 +9406,9 @@ then all properties are returned.
 @param prefix The prefix to search for (empty string if none).
 @return The matching property set.",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "getPropertiesForPrefix",
               "parameters": Array [
                 Object {
@@ -9369,11 +9460,13 @@ the empty string.
               "doc": "Get a sequence of command-line options that is equivalent to
 this property set. Each element of the returned sequence is
 a command-line option of the form
-<tt>--<em>key</em>=<em>value</em></tt>.
+<code>--<em>key</em>=<em>value</em></code>.
 
 @return The command line options for this property set.",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "getCommandLineOptions",
               "parameters": Array [],
               "returnOptional": undefined,
@@ -9384,12 +9477,12 @@ a command-line option of the form
             Object {
               "doc": "Convert a sequence of command-line options into properties.
 All options that begin with
-<tt>--<em>prefix</em>.</tt> are
+<code>--<em>prefix</em>.</code> are
 converted into properties. If the prefix is empty, all options
-that begin with <tt>--</tt> are converted to properties.
+that begin with <code>--</code> are converted to properties.
 
 @param prefix The property prefix, or an empty string to
-convert all options starting with <tt>--</tt>.
+convert all options starting with <code>--</code>.
 
 @param options The command-line options.
 
@@ -9422,8 +9515,8 @@ prefix, in their original order.",
             Object {
               "doc": "Convert a sequence of command-line options into properties.
 All options that begin with one of the following prefixes
-are converted into properties: <tt>--Ice</tt>, <tt>--IceBox</tt>, <tt>--IceGrid</tt>,
-<tt>--IcePatch2</tt>, <tt>--IceSSL</tt>, <tt>--IceStorm</tt>, <tt>--Freeze</tt>, and <tt>--Glacier2</tt>.
+are converted into properties: <code>--Ice</code>, <code>--IceBox</code>, <code>--IceGrid</code>,
+<code>--IcePatch2</code>, <code>--IceSSL</code>, <code>--IceStorm</code>, <code>--Freeze</code>, and <code>--Glacier2</code>.
 
 @param options The command-line options.
 
@@ -9472,7 +9565,9 @@ the listed prefixes, in their original order.",
 
 @return A copy of this property set.",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "clone",
               "parameters": Array [],
               "returnOptional": undefined,
@@ -9487,9 +9582,7 @@ being strings. By convention, property keys should have the form
 <em>application-name</em>\\\\[.<em>category</em>\\\\[.<em>sub-category</em>]].<em>name</em>.",
           "extends": undefined,
           "local": true,
-          "metadata": Array [
-            "php:internal",
-          ],
+          "metadata": undefined,
           "name": "Properties",
           "type": "interface",
         },
@@ -9509,12 +9602,13 @@ being strings. By convention, property keys should have the form
 exports[`Built-in slices Ice/PropertiesAdmin.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -9640,11 +9734,13 @@ of a communicator.",
 exports[`Built-in slices Ice/PropertiesF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -9682,14 +9778,15 @@ Object {
 exports[`Built-in slices Ice/RemoteLogger.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
-    "objc:dll-export:ICE_API",
-    "js:ice-build",
-    "python:pkgdir:Ice",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
     "cpp:include:list",
+    "ice-prefix",
+    "js:module:ice",
+    "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
+    "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -9788,14 +9885,11 @@ otherwise, the empty string.",
         Object {
           "content": Array [
             Object {
-              "doc": "init is called by {@link LoggerAdmin#attachRemoteLogger} when a
-RemoteLogger proxy is attached.
+              "doc": "init is called by attachRemoteLogger when a RemoteLogger proxy is attached.
 
-@param prefix The prefix of the associated local {@link Logger}
+@param prefix The prefix of the associated local Logger.
 
-@param logMessages Old log messages generated before \\"now\\".
-
-@see LoggerAdmin#attachRemoteLogger",
+@param logMessages Old log messages generated before \\"now\\".",
               "idempotent": undefined,
               "metadata": undefined,
               "name": "init",
@@ -9821,12 +9915,9 @@ RemoteLogger proxy is attached.
               "type": "operation",
             },
             Object {
-              "doc": "Log a {@link LogMessage}. Note that log may be called by {@link LoggerAdmin}
-before {@link RemoteLogger#init}.
+              "doc": "Log a LogMessage. Note that log may be called by LoggerAdmin before init.
 
-@param message The message to log.
-
-@see Logger",
+@param message The message to log.",
               "idempotent": undefined,
               "metadata": undefined,
               "name": "log",
@@ -9856,9 +9947,7 @@ of another Ice application.",
         },
         Object {
           "content": Array [],
-          "doc": "An exception thrown by {@link LoggerAdmin#attachRemoteLogger} to report
-that the provided {@link RemoteLogger} was previously attached to this
-{@link LoggerAdmin}.",
+          "doc": "Thrown when the provided RemoteLogger was previously attached to a LoggerAdmin.",
           "extends": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -9868,9 +9957,8 @@ that the provided {@link RemoteLogger} was previously attached to this
         Object {
           "content": Array [
             Object {
-              "doc": "attachRemoteLogger is called to attach a {@link RemoteLogger} object to
-the local {@link Logger}.
-attachRemoteLogger calls init on the provided {@link RemoteLogger} proxy.
+              "doc": "Attaches a RemoteLogger object to the local logger.
+attachRemoteLogger calls init on the provided RemoteLogger proxy.
 
 @param prx A proxy to the remote logger.
 
@@ -9882,7 +9970,7 @@ This parameter is ignored if messageTypes is not empty and does not include trac
 An empty list means no filtering (send all trace categories).
 
 @param messageMax The maximum number of log messages (of all types) to be provided
-to {@link RemoteLogger#init}. A negative value requests all messages available.
+to init. A negative value requests all messages available.
 
 @throws RemoteLoggerAlreadyAttachedException Raised if this remote logger is already
 attached to this admin object.",
@@ -9927,8 +10015,7 @@ attached to this admin object.",
               "type": "operation",
             },
             Object {
-              "doc": "detachRemoteLogger is called to detach a {@link RemoteLogger} object from
-the local {@link Logger}.
+              "doc": "Detaches a RemoteLogger object from the local logger.
 
 @param prx A proxy to the remote logger.
 
@@ -9951,7 +10038,7 @@ the local {@link Logger}.
               "type": "operation",
             },
             Object {
-              "doc": "getLog retrieves log messages recently logged.
+              "doc": "Retrieves log messages recently logged.
 
 @param messageTypes The list of message types that the caller wishes to receive.
 An empty list means no filtering (send all message types).
@@ -9963,7 +10050,7 @@ An empty list means no filtering (send all trace categories).
 @param messageMax The maximum number of log messages (of all types) to be returned.
 A negative value requests all messages available.
 
-@param prefix The prefix of the associated local {@link Logger}.
+@param prefix The prefix of the associated local logger.
 
 @return The Log messages.",
               "idempotent": undefined,
@@ -10029,12 +10116,13 @@ A negative value requests all messages available.
 exports[`Built-in slices Ice/Router.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -10122,7 +10210,7 @@ forwarding requests from the server to the router.
             },
           ],
           "doc": "The Ice router interface. Routers can be set either globally with
-{@link Communicator#setDefaultRouter}, or with <tt>ice_router</tt> on specific
+{@link Communicator#setDefaultRouter}, or with <code>ice_router</code> on specific
 proxies.",
           "extends": undefined,
           "local": undefined,
@@ -10174,11 +10262,13 @@ service.",
 exports[`Built-in slices Ice/RouterF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -10209,11 +10299,13 @@ Object {
 exports[`Built-in slices Ice/ServantLocator.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -10233,25 +10325,25 @@ map. Note that the object adapter does not automatically insert
 the returned servant into its active servant map. This must be
 done by the servant locator implementation, if this is desired.
 
-<tt>locate</tt> can throw any user exception. If it does, that exception
+<code>locate</code> can throw any user exception. If it does, that exception
 is marshaled back to the client. If the Slice definition for the
 corresponding operation includes that user exception, the client
 receives that user exception; otherwise, the client receives
 {@link UnknownUserException}.
 
-If <tt>locate</tt> throws any exception, the Ice run time does <em>not</em>
-call <tt>finished</tt>.
+If <code>locate</code> throws any exception, the Ice run time does <em>not</em>
+call <code>finished</code>.
 
-<p class=\\"Note\\">If you call <tt>locate</tt> from your own code, you
-must also call <tt>finished</tt> when you have finished using the
-servant, provided that <tt>locate</tt> returned a non-null servant;
+<p class=\\"Note\\">If you call <code>locate</code> from your own code, you
+must also call <code>finished</code> when you have finished using the
+servant, provided that <code>locate</code> returned a non-null servant;
 otherwise, you will get undefined behavior if you use
 servant locators such as the Freeze Evictor.
 
 @param curr Information about the current operation for which
 a servant is required.
 
-@param cookie A \\"cookie\\" that will be passed to <tt>finished</tt>.
+@param cookie A \\"cookie\\" that will be passed to <code>finished</code>.
 
 @return The located servant, or null if no suitable servant has
 been found.
@@ -10290,25 +10382,25 @@ and the run time will marshal it as the result of the invocation.
             },
             Object {
               "doc": "Called by the object adapter after a request has been
-made. This operation is only called if <tt>locate</tt> was called
+made. This operation is only called if <code>locate</code> was called
 prior to the request and returned a non-null servant. This
 operation can be used for cleanup purposes after a request.
 
-<tt>finished</tt> can throw any user exception. If it does, that exception
+<code>finished</code> can throw any user exception. If it does, that exception
 is marshaled back to the client. If the Slice definition for the
 corresponding operation includes that user exception, the client
 receives that user exception; otherwise, the client receives
 {@link UnknownUserException}.
 
-If both the operation and <tt>finished</tt> throw an exception, the
-exception thrown by <tt>finished</tt> is marshaled back to the client.
+If both the operation and <code>finished</code> throw an exception, the
+exception thrown by <code>finished</code> is marshaled back to the client.
 
 @param curr Information about the current operation call for
-which a servant was located by <tt>locate</tt>.
+which a servant was located by <code>locate</code>.
 
-@param servant The servant that was returned by <tt>locate</tt>.
+@param servant The servant that was returned by <code>locate</code>.
 
-@param cookie The cookie that was returned by <tt>locate</tt>.
+@param cookie The cookie that was returned by <code>locate</code>.
 
 @throws UserException The implementation can raise a UserException
 and the run time will marshal it as the result of the invocation.
@@ -10405,11 +10497,13 @@ locate a servant that is not found in its active servant map.
 exports[`Built-in slices Ice/ServantLocatorF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -10440,12 +10534,13 @@ Object {
 exports[`Built-in slices Ice/SliceChecksumDict.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -10482,11 +10577,13 @@ use matching Slice definitions.",
 exports[`Built-in slices Ice/ValueFactory.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -10500,10 +10597,10 @@ Object {
               "doc": "Create a new value for a given value type. The type is the
 absolute Slice type id, i.e., the id relative to the
 unnamed top-level Slice module. For example, the absolute
-Slice type id for an interface <tt>Bar</tt> in the module
-<tt>Foo</tt> is <tt>::Foo::Bar</tt>.
+Slice type id for an interface <code>Bar</code> in the module
+<code>Foo</code> is <code>\\"::Foo::Bar\\"</code>.
 
-<p class=\\"Note\\">The leading \\"<tt>::</tt>\\" is required.
+Note that the leading \\"<code>::</code>\\" is required.
 
 @param type The value type.
 
@@ -10536,7 +10633,6 @@ with the communicator.",
           "local": true,
           "metadata": Array [
             "delegate",
-            "php:internal",
           ],
           "name": "ValueFactory",
           "type": "interface",
@@ -10544,27 +10640,25 @@ with the communicator.",
         Object {
           "content": Array [
             Object {
-              "doc": "<p>Add a value factory. Attempting to add a
-factory with an id for which a factory is already registered
-throws {@link AlreadyRegisteredException}.</p>
+              "doc": "Add a value factory. Attempting to add a factory with an id for
+which a factory is already registered throws AlreadyRegisteredException.
 
-<p>When unmarshaling an Ice value, the Ice run time reads the
+When unmarshaling an Ice value, the Ice run time reads the
 most-derived type id off the wire and attempts to create an
 instance of the type using a factory. If no instance is created,
 either because no factory was found, or because all factories
 returned nil, the behavior of the Ice run time depends on the
-format with which the value was marshaled:</p>
+format with which the value was marshaled:
 
-<p>If the value uses the \\"sliced\\" format, Ice ascends the class
+If the value uses the \\"sliced\\" format, Ice ascends the class
 hierarchy until it finds a type that is recognized by a factory,
 or it reaches the least-derived type. If no factory is found that
-can create an instance, the run time throws
-{@link NoValueFactoryException}.</p>
+can create an instance, the run time throws NoValueFactoryException.
 
-<p>If the value uses the \\"compact\\" format, Ice immediately raises
-{@link NoValueFactoryException}.</p>
+If the value uses the \\"compact\\" format, Ice immediately raises
+NoValueFactoryException.
 
-<p>The following order is used to locate a factory for a type:</p>
+The following order is used to locate a factory for a type:
 
 <ol>
 
@@ -10623,6 +10717,7 @@ found for the given id.",
               "idempotent": undefined,
               "metadata": Array [
                 "cpp:const",
+                "cpp:noexcept",
               ],
               "name": "find",
               "parameters": Array [
@@ -10647,9 +10742,7 @@ initialization, otherwise Ice provides a default implementation.
 @see ValueFactory",
           "extends": undefined,
           "local": true,
-          "metadata": Array [
-            "php:internal",
-          ],
+          "metadata": undefined,
           "name": "ValueFactoryManager",
           "type": "interface",
         },
@@ -10669,12 +10762,13 @@ initialization, otherwise Ice provides a default implementation.
 exports[`Built-in slices Ice/Version.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICE_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:Ice/Ice.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICE_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:Ice",
     "java:package:com.zeroc",
   ],
@@ -10744,9 +10838,11 @@ Object {
 exports[`Built-in slices IceBT/ConnectionInfo.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICEBT_API",
+    "cpp:doxygen:include:IceBT/IceBT.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:header-dir:objc",
     "python:pkgdir:IceBT",
     "java:package:com.zeroc",
@@ -10846,11 +10942,12 @@ Object {
 exports[`Built-in slices IceBT/EndpointInfo.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICEBT_API",
+    "cpp:doxygen:include:IceBT/IceBT.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:header-dir:objc",
-    "js:ice-build",
     "python:pkgdir:IceBT",
     "java:package:com.zeroc",
   ],
@@ -10904,9 +11001,11 @@ Object {
 exports[`Built-in slices IceBT/Types.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICEBT_API",
+    "cpp:doxygen:include:IceBT/IceBT.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:header-dir:objc",
     "python:pkgdir:IceBT",
     "java:package:com.zeroc",
@@ -10952,12 +11051,14 @@ Object {
 exports[`Built-in slices IceBox/IceBox.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICEBOX_API",
+    "cpp:doxygen:include:IceBox/IceBox.h",
+    "cpp:header-ext:h",
+    "cpp:include:IceBox/Config.h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:header-dir:objc",
     "python:pkgdir:IceBox",
-    "cpp:include:IceBox/Config.h",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -11238,8 +11339,7 @@ interested in the status of services
               "type": "operation",
             },
             Object {
-              "doc": "Shut down all services. This causes {@link Service#stop} to be
-invoked on all configured services.",
+              "doc": "Shut down all services. This causes stop to be invoked on all configured services.",
               "idempotent": undefined,
               "metadata": undefined,
               "name": "shutdown",
@@ -11276,8 +11376,10 @@ class.",
 exports[`Built-in slices IceDiscovery/IceDiscovery.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
+    "cpp:doxygen:include:IceDiscovery/IceDiscovery.h",
     "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:header-dir:objc",
     "python:pkgdir:IceDiscovery",
     "java:package:com.zeroc",
@@ -11447,14 +11549,15 @@ Object {
 exports[`Built-in slices IceGrid/Admin.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICEGRID_API",
-    "objc:header-dir:objc",
-    "objc:dll-export:ICEGRID_API",
-    "js:ice-build",
-    "python:pkgdir:IceGrid",
+    "cpp:doxygen:include:IceGrid/IceGrid.h",
+    "cpp:header-ext:h",
     "cpp:include:IceGrid/Config.h",
+    "ice-prefix",
+    "js:module:ice",
+    "objc:dll-export:ICEGRID_API",
+    "objc:header-dir:objc",
+    "python:pkgdir:IceGrid",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -12793,7 +12896,7 @@ exist.
             },
             Object {
               "doc": "Add an object to the object registry. IceGrid will get the
-object type by calling <tt>ice_id</tt> on the given proxy. The object
+object type by calling <code>ice_id</code> on the given proxy. The object
 must be reachable.
 
 @param obj The object to be added to the registry.
@@ -12996,7 +13099,7 @@ identities match the given expression.
 
 @param expr The expression to match against the stringified
 identities of registered objects. The expression may contain
-a trailing wildcard (<tt>*</tt>) character.
+a trailing wildcard (<code>*</code>) character.
 
 @return All the object infos with a stringified identity
 matching the given expression.",
@@ -13623,7 +13726,7 @@ to read lines from the file.",
         Object {
           "content": Array [
             Object {
-              "doc": "The <tt>registryInit</tt> operation is called after registration of
+              "doc": "The <code>registryInit</code> operation is called after registration of
 an observer to indicate the state of the registries.
 
 @param registries The current state of the registries.",
@@ -13645,7 +13748,7 @@ an observer to indicate the state of the registries.
               "type": "operation",
             },
             Object {
-              "doc": "The <tt>nodeUp</tt> operation is called to notify an observer that a node
+              "doc": "The <code>nodeUp</code> operation is called to notify an observer that a node
 came up.
 
 @param node The node state.",
@@ -13667,7 +13770,7 @@ came up.
               "type": "operation",
             },
             Object {
-              "doc": "The <tt>nodeDown</tt> operation is called to notify an observer that a node
+              "doc": "The <code>nodeDown</code> operation is called to notify an observer that a node
 went down.
 
 @param name The node name.",
@@ -13709,7 +13812,7 @@ of the registry.",
         Object {
           "content": Array [
             Object {
-              "doc": "The <tt>nodeInit</tt> operation indicates the current state
+              "doc": "The <code>nodeInit</code> operation indicates the current state
 of nodes. It is called after the registration of an observer.
 
 @param nodes The current state of the nodes.",
@@ -13731,7 +13834,7 @@ of nodes. It is called after the registration of an observer.
               "type": "operation",
             },
             Object {
-              "doc": "The <tt>nodeUp</tt> operation is called to notify an observer that a node
+              "doc": "The <code>nodeUp</code> operation is called to notify an observer that a node
 came up.
 
 @param node The node state.",
@@ -13753,7 +13856,7 @@ came up.
               "type": "operation",
             },
             Object {
-              "doc": "The <tt>nodeDown</tt> operation is called to notify an observer that a node
+              "doc": "The <code>nodeDown</code> operation is called to notify an observer that a node
 went down.
 
 @param name The node name.",
@@ -13775,7 +13878,7 @@ went down.
               "type": "operation",
             },
             Object {
-              "doc": "The <tt>updateServer</tt> operation is called to notify an observer that
+              "doc": "The <code>updateServer</code> operation is called to notify an observer that
 the state of a server changed.
 
 @param node The node hosting the server.
@@ -13806,7 +13909,7 @@ the state of a server changed.
               "type": "operation",
             },
             Object {
-              "doc": "The <tt>updateAdapter</tt> operation is called to notify an observer that
+              "doc": "The <code>updateAdapter</code> operation is called to notify an observer that
 the state of an adapter changed.
 
 @param node The node hosting the adapter.
@@ -13849,7 +13952,7 @@ nodes.",
         Object {
           "content": Array [
             Object {
-              "doc": "<tt>applicationInit</tt> is called after the registration
+              "doc": "<code>applicationInit</code> is called after the registration
 of an observer to indicate the state of the registry.
 
 @param serial The current serial number of the registry
@@ -13883,7 +13986,7 @@ the registry.",
               "type": "operation",
             },
             Object {
-              "doc": "The <tt>applicationAdded</tt> operation is called to notify an observer
+              "doc": "The <code>applicationAdded</code> operation is called to notify an observer
 that an application was added.
 
 @param serial The new serial number of the registry database.
@@ -13914,7 +14017,7 @@ that an application was added.
               "type": "operation",
             },
             Object {
-              "doc": "The <tt>applicationRemoved</tt> operation is called to notify an observer
+              "doc": "The <code>applicationRemoved</code> operation is called to notify an observer
 that an application was removed.
 
 @param serial The new serial number of the registry database.
@@ -13945,7 +14048,7 @@ that an application was removed.
               "type": "operation",
             },
             Object {
-              "doc": "The <tt>applicationUpdated</tt> operation is called to notify an observer
+              "doc": "The <code>applicationUpdated</code> operation is called to notify an observer
 that an application was updated.
 
 @param serial The new serial number of the registry database.
@@ -13988,7 +14091,7 @@ registry database.",
         Object {
           "content": Array [
             Object {
-              "doc": "<tt>adapterInit</tt> is called after registration of
+              "doc": "<code>adapterInit</code> is called after registration of
 an observer to indicate the state of the registry.
 
 @param adpts The adapters that were dynamically registered
@@ -14011,7 +14114,7 @@ with the registry (not through the deployment mechanism).",
               "type": "operation",
             },
             Object {
-              "doc": "The <tt>adapterAdded</tt> operation is called to notify an observer when
+              "doc": "The <code>adapterAdded</code> operation is called to notify an observer when
 a dynamically-registered adapter was added.
 
 @param info The details of the new adapter.",
@@ -14088,7 +14191,7 @@ adapters that are registered with IceGrid.",
         Object {
           "content": Array [
             Object {
-              "doc": "<tt>objectInit</tt> is called after the registration of
+              "doc": "<code>objectInit</code> is called after the registration of
 an observer to indicate the state of the registry.
 
 @param objects The objects registered with the {@link Admin}
@@ -14111,7 +14214,7 @@ interface (not through the deployment mechanism).",
               "type": "operation",
             },
             Object {
-              "doc": "The <tt>objectAdded</tt> operation is called to notify an observer when an
+              "doc": "The <code>objectAdded</code> operation is called to notify an observer when an
 object was added to the {@link Admin} interface.
 
 @param info The details of the added object.",
@@ -14133,7 +14236,7 @@ object was added to the {@link Admin} interface.
               "type": "operation",
             },
             Object {
-              "doc": "<tt>objectUpdated</tt> is called to notify an observer when
+              "doc": "<code>objectUpdated</code> is called to notify an observer when
 an object registered with the {@link Admin} interface was updated.
 
 @param info The details of the updated object.",
@@ -14155,7 +14258,7 @@ an object registered with the {@link Admin} interface was updated.
               "type": "operation",
             },
             Object {
-              "doc": "<tt>objectRemoved</tt> is called to notify an observer when
+              "doc": "<code>objectRemoved</code> is called to notify an observer when
 an object registered with the {@link Admin} interface was removed.
 
 @param id The identity of the removed object.",
@@ -14428,7 +14531,7 @@ descriptor.
 
 @param count Specifies where to start reading the file. If
 negative, the file is read from the begining. If 0 or positive,
-the file is read from the last <tt>count</tt> lines.
+the file is read from the last <code>count</code> lines.
 
 @return An iterator to read the file.
 
@@ -14487,7 +14590,7 @@ read with the returned file iterator.
 
 @param count Specifies where to start reading the file. If
 negative, the file is read from the begining. If 0 or positive,
-the file is read from the last <tt>count</tt> lines.
+the file is read from the last <code>count</code> lines.
 
 @return An iterator to read the file.
 
@@ -14539,7 +14642,7 @@ read with the returned file iterator.
 
 @param count Specifies where to start reading the file. If
 negative, the file is read from the begining. If 0 or positive,
-the file is read from the last <tt>count</tt> lines.
+the file is read from the last <code>count</code> lines.
 
 @return An iterator to read the file.
 
@@ -14591,7 +14694,7 @@ read with the returned file iterator.
 
 @param count Specifies where to start reading the file. If
 negative, the file is read from the begining. If 0 or positive,
-the file is read from the last <tt>count</tt> lines.
+the file is read from the last <code>count</code> lines.
 
 @return An iterator to read the file.
 
@@ -14638,7 +14741,7 @@ read with the returned file iterator.
 
 @param count Specifies where to start reading the file. If
 negative, the file is read from the begining. If 0 or positive,
-the file is read from the last <tt>count</tt> lines.
+the file is read from the last <code>count</code> lines.
 
 @return An iterator to read the file.
 
@@ -14685,7 +14788,7 @@ read with the returned file iterator.
 
 @param count Specifies where to start reading the file. If
 negative, the file is read from the begining. If 0 or positive,
-the file is read from the last <tt>count</tt> lines.
+the file is read from the last <code>count</code> lines.
 
 @return An iterator to read the file.
 
@@ -14733,7 +14836,7 @@ read with the returned file iterator.
 
 @param count Specifies where to start reading the file. If
 negative, the file is read from the begining. If 0 or positive,
-the file is read from the last <tt>count</tt> lines.
+the file is read from the last <code>count</code> lines.
 
 @return An iterator to read the file.
 
@@ -14777,7 +14880,7 @@ could not be reached.",
           "doc": "Used by administrative clients to view,
 update, and receive observer updates from the IceGrid
 registry. Admin sessions are created either via the {@link Registry}
-object or via the registry admin <tt>SessionManager</tt> object.
+object or via the registry admin <code>SessionManager</code> object.
 
 @see Registry",
           "extends": Array [
@@ -14804,14 +14907,15 @@ object or via the registry admin <tt>SessionManager</tt> object.
 exports[`Built-in slices IceGrid/Descriptor.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
+    "cpp:doxygen:include:IceGrid/IceGrid.h",
     "cpp:header-ext:h",
+    "cpp:include:IceGrid/Config.h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:header-dir:objc",
-    "js:ice-build",
     "python:pkgdir:IceGrid",
     "cpp:dll-export:ICEGRID_API",
     "objc:dll-export:ICEGRID_API",
-    "cpp:include:IceGrid/Config.h",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -16069,14 +16173,15 @@ updated.)",
 exports[`Built-in slices IceGrid/Exception.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
+    "cpp:doxygen:include:IceGrid/IceGrid.h",
     "cpp:header-ext:h",
+    "cpp:include:IceGrid/Config.h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:header-dir:objc",
-    "js:ice-build",
     "python:pkgdir:IceGrid",
     "cpp:dll-export:ICEGRID_API",
     "objc:dll-export:ICEGRID_API",
-    "cpp:include:IceGrid/Config.h",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -16553,14 +16658,15 @@ the registry.
 exports[`Built-in slices IceGrid/FileParser.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICEGRID_API",
-    "objc:header-dir:objc",
-    "objc:dll-export:ICEGRID_API",
-    "js:ice-build",
-    "python:pkgdir:IceGrid",
+    "cpp:doxygen:include:IceGrid/IceGrid.h",
+    "cpp:header-ext:h",
     "cpp:include:IceGrid/Config.h",
+    "ice-prefix",
+    "js:module:ice",
+    "objc:dll-export:ICEGRID_API",
+    "objc:header-dir:objc",
+    "python:pkgdir:IceGrid",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -16628,7 +16734,7 @@ templates when needed. May be null.
               "type": "operation",
             },
           ],
-          "doc": "<tt>icegridadmin</tt> provides a {@link FileParser}
+          "doc": "<code>icegridadmin</code> provides a {@link FileParser}
 object to transform XML files into {@link ApplicationDescriptor}
 objects.",
           "extends": undefined,
@@ -16653,13 +16759,15 @@ objects.",
 exports[`Built-in slices IceGrid/PluginFacade.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICEGRID_API",
-    "objc:header-dir:objc",
-    "objc:dll-export:ICEGRID_API",
-    "python:pkgdir:IceGrid",
+    "cpp:doxygen:include:IceGrid/IceGrid.h",
+    "cpp:header-ext:h",
     "cpp:include:IceGrid/Config.h",
+    "ice-prefix",
+    "js:module:ice",
+    "objc:dll-export:ICEGRID_API",
+    "objc:header-dir:objc",
+    "python:pkgdir:IceGrid",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -17153,7 +17261,9 @@ replica groups, you should use the empty filter id.
 
 @param filter The filter implementation.",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "addReplicaGroupFilter",
               "parameters": Array [
                 Object {
@@ -17185,7 +17295,9 @@ replica groups, you should use the empty filter id.
 
 @return True of the filter was removed, false otherwise.",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "removeReplicaGroupFilter",
               "parameters": Array [
                 Object {
@@ -17215,7 +17327,9 @@ replica groups, you should use the empty filter id.
 
 @param filter The filter implementation.",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "addTypeFilter",
               "parameters": Array [
                 Object {
@@ -17247,7 +17361,9 @@ replica groups, you should use the empty filter id.
 
 @return True of the filter was removed, false otherwise.",
               "idempotent": undefined,
-              "metadata": undefined,
+              "metadata": Array [
+                "cpp:noexcept",
+              ],
               "name": "removeTypeFilter",
               "parameters": Array [
                 Object {
@@ -17297,14 +17413,15 @@ register/unregister replica group and type filters.",
 exports[`Built-in slices IceGrid/Registry.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICEGRID_API",
-    "objc:header-dir:objc",
-    "objc:dll-export:ICEGRID_API",
-    "js:ice-build",
-    "python:pkgdir:IceGrid",
+    "cpp:doxygen:include:IceGrid/IceGrid.h",
+    "cpp:header-ext:h",
     "cpp:include:IceGrid/Config.h",
+    "ice-prefix",
+    "js:module:ice",
+    "objc:dll-export:ICEGRID_API",
+    "objc:header-dir:objc",
+    "python:pkgdir:IceGrid",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -17731,14 +17848,15 @@ and {@link Registry} object of the IceGrid registry.
 exports[`Built-in slices IceGrid/Session.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICEGRID_API",
-    "objc:header-dir:objc",
-    "objc:dll-export:ICEGRID_API",
-    "js:ice-build",
-    "python:pkgdir:IceGrid",
+    "cpp:doxygen:include:IceGrid/IceGrid.h",
+    "cpp:header-ext:h",
     "cpp:include:IceGrid/Config.h",
+    "ice-prefix",
+    "js:module:ice",
+    "objc:dll-export:ICEGRID_API",
+    "objc:header-dir:objc",
+    "python:pkgdir:IceGrid",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -17838,8 +17956,8 @@ becomes available or until the timeout is reached.
               "type": "operation",
             },
             Object {
-              "doc": "Release an object that was allocated using <tt>allocateObjectById</tt> or
-<tt>allocateObjectByType</tt>.
+              "doc": "Release an object that was allocated using <code>allocateObjectById</code> or
+<code>allocateObjectByType</code>.
 
 @param id The identity of the object to release.
 
@@ -17871,8 +17989,8 @@ isn't allocated by the session.",
             },
             Object {
               "doc": "Set the allocation timeout. If no objects are available for an
-allocation request, a call to <tt>allocateObjectById</tt> or
-<tt>allocateObjectByType</tt> will block for the duration of this
+allocation request, a call to <code>allocateObjectById</code> or
+<code>allocateObjectByType</code> will block for the duration of this
 timeout.
 
 @param timeout The timeout in milliseconds.",
@@ -17896,7 +18014,7 @@ timeout.
           ],
           "doc": "A session object is used by IceGrid clients to allocate and
 release objects. Client sessions are created either via the
-{@link Registry} object or via the registry client <tt>SessionManager</tt>
+{@link Registry} object or via the registry client <code>SessionManager</code>
 object.
 
 @see Registry",
@@ -17924,14 +18042,15 @@ object.
 exports[`Built-in slices IceGrid/UserAccountMapper.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICEGRID_API",
-    "objc:header-dir:objc",
-    "objc:dll-export:ICEGRID_API",
-    "js:ice-build",
-    "python:pkgdir:IceGrid",
+    "cpp:doxygen:include:IceGrid/IceGrid.h",
+    "cpp:header-ext:h",
     "cpp:include:IceGrid/Config.h",
+    "ice-prefix",
+    "js:module:ice",
+    "objc:dll-export:ICEGRID_API",
+    "objc:header-dir:objc",
+    "python:pkgdir:IceGrid",
     "java:package:com.zeroc",
   ],
   "includes": undefined,
@@ -17955,10 +18074,10 @@ identifier can't be found.",
 used by IceGrid nodes to figure out the user account to use
 to run servers.
 
-@param user The value of the server descriptor's <tt>user</tt>
+@param user The value of the server descriptor's <code>user</code>
 attribute. If this attribute is not defined, and the server's
-activation mode is <tt>session</tt>, the default value of
-<tt>user</tt> is the session identifier.
+activation mode is <code>session</code>, the default value of
+<code>user</code> is the session identifier.
 
 @return The user account name.
 
@@ -18008,11 +18127,12 @@ session identifiers to user accounts.",
 exports[`Built-in slices IceIAP/ConnectionInfo.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICEIAP_API",
+    "cpp:doxygen:include:IceIAP/IceIAP.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:header-dir:objc",
-    "js:ice-build",
   ],
   "includes": Array [
     "Ice/Connection",
@@ -18100,11 +18220,12 @@ Object {
 exports[`Built-in slices IceIAP/EndpointInfo.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICEIAP_API",
+    "cpp:doxygen:include:IceIAP/IceIAP.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:header-dir:objc",
-    "js:ice-build",
   ],
   "includes": Array [
     "Ice/Endpoint",
@@ -18177,8 +18298,10 @@ the accessory name.",
 exports[`Built-in slices IceLocatorDiscovery/IceLocatorDiscovery.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
+    "cpp:doxygen:include:IceLocatorDiscovery/IceLocatorDiscovery.h",
     "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:header-dir:objc",
     "python:pkgdir:IceLocatorDiscovery",
     "java:package:com.zeroc",
@@ -18290,12 +18413,14 @@ UDP multicast.",
 exports[`Built-in slices IcePatch2/FileInfo.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICEPATCH2_API",
+    "cpp:doxygen:include:IcePatch2/IcePatch2.h",
+    "cpp:header-ext:h",
+    "cpp:include:IcePatch2/Config.h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:header-dir:objc",
     "python:pkgdir:IcePatch2",
-    "cpp:include:IcePatch2/Config.h",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -18412,12 +18537,14 @@ Object {
 exports[`Built-in slices IcePatch2/FileServer.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICEPATCH2_API",
+    "cpp:doxygen:include:IcePatch2/IcePatch2.h",
+    "cpp:header-ext:h",
+    "cpp:include:IcePatch2/Config.h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:header-dir:objc",
     "python:pkgdir:IcePatch2",
-    "cpp:include:IcePatch2/Config.h",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -18438,7 +18565,7 @@ partition.",
         },
         Object {
           "content": Array [],
-          "doc": "A <tt>partition</tt> argument was not in the range 0-255.",
+          "doc": "A <code>partition</code> argument was not in the range 0-255.",
           "extends": undefined,
           "local": undefined,
           "metadata": undefined,
@@ -18717,12 +18844,13 @@ compressed before downloading.",
 exports[`Built-in slices IceSSL/ConnectionInfo.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICESSL_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:IceSSL/IceSSL.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICESSL_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:IceSSL",
     "cpp:include:IceSSL/Plugin.h",
     "java:package:com.zeroc",
@@ -18790,12 +18918,13 @@ Object {
 exports[`Built-in slices IceSSL/ConnectionInfoF.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICESSL_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:IceSSL/IceSSL.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICESSL_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:IceSSL",
     "java:package:com.zeroc",
   ],
@@ -18826,12 +18955,13 @@ Object {
 exports[`Built-in slices IceSSL/EndpointInfo.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICESSL_API",
-    "objc:header-dir:objc",
+    "cpp:doxygen:include:IceSSL/IceSSL.h",
+    "cpp:header-ext:h",
+    "ice-prefix",
+    "js:module:ice",
     "objc:dll-export:ICESSL_API",
-    "js:ice-build",
+    "objc:header-dir:objc",
     "python:pkgdir:IceSSL",
     "java:package:com.zeroc",
   ],
@@ -18866,14 +18996,15 @@ Object {
 exports[`Built-in slices IceStorm/IceStorm.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICESTORM_API",
-    "objc:header-dir:objc",
-    "objc:dll-export:ICESTORM_API",
-    "js:ice-build",
-    "python:pkgdir:IceStorm",
+    "cpp:doxygen:include:IceStorm/IceStorm.h",
+    "cpp:header-ext:h",
     "cpp:include:IceStorm/Config.h",
+    "ice-prefix",
+    "js:module:ice",
+    "objc:dll-export:ICESTORM_API",
+    "objc:header-dir:objc",
+    "python:pkgdir:IceStorm",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -19053,7 +19184,7 @@ invalid QoS.",
             },
             Object {
               "doc": "Get a proxy to a publisher object for this topic. To publish
-data to a topic, the publisher calls {@link Topic#getPublisher} and then
+data to a topic, the publisher calls getPublisher and then
 casts to the topic type. An unchecked cast must be used on this
 proxy. If a replicated IceStorm deployment is used this call
 may return a replicated proxy.
@@ -19074,7 +19205,7 @@ may return a replicated proxy.
             Object {
               "doc": "Get a non-replicated proxy to a publisher object for this
 topic. To publish data to a topic, the publisher calls
-{@link Topic#getPublisher} and then casts to the topic type. An unchecked
+getPublisher and then casts to the topic type. An unchecked
 cast must be used on this proxy.
 
 @return A proxy to publish data on this topic.",
@@ -19091,7 +19222,7 @@ cast must be used on this proxy.
               "type": "operation",
             },
             Object {
-              "doc": "Subscribe with the given <tt>qos</tt> to this topic.  A
+              "doc": "Subscribe with the given <code>qos</code> to this topic.  A
 per-subscriber publisher object is returned.
 
 @param theQoS The quality of service parameters for this
@@ -19139,7 +19270,7 @@ is unavailable or invalid.
               "type": "operation",
             },
             Object {
-              "doc": "Unsubscribe the given <tt>subscriber</tt>.
+              "doc": "Unsubscribe the given <code>subscriber</code>.
 
 @param subscriber The proxy of an existing subscriber.
 
@@ -19163,7 +19294,7 @@ is unavailable or invalid.
             },
             Object {
               "doc": "Create a link to the given topic. All events originating
-on this topic will also be sent to <tt>linkTo</tt>.
+on this topic will also be sent to <code>linkTo</code>.
 
 @param linkTo The topic to link to.
 
@@ -19198,7 +19329,7 @@ exists.",
               "type": "operation",
             },
             Object {
-              "doc": "Destroy the link from this topic to the given topic <tt>linkTo</tt>.
+              "doc": "Destroy the link from this topic to the given topic <code>linkTo</code>.
 
 @param linkTo The topic to destroy the link to.
 
@@ -19330,8 +19461,7 @@ topic that does not exist.",
         Object {
           "content": Array [
             Object {
-              "doc": "Create a new topic. The topic name must be unique, otherwise
-{@link TopicExists} is raised.
+              "doc": "Create a new topic. The topic name must be unique.
 
 @param name The name of the topic.
 
@@ -19476,14 +19606,14 @@ easy as invoking a method on an interface.",
 exports[`Built-in slices IceStorm/Metrics.ice 1`] = `
 Object {
   "globalMetadata": Array [
-    "ice-prefix",
-    "cpp:header-ext:h",
     "cpp:dll-export:ICESTORM_API",
-    "objc:header-dir:objc",
-    "objc:dll-export:ICESTORM_API",
-    "js:ice-build",
-    "python:pkgdir:IceStorm",
+    "cpp:doxygen:include:IceStorm/IceStorm.h",
+    "cpp:header-ext:h",
     "cpp:include:IceStorm/Config.h",
+    "ice-prefix",
+    "objc:dll-export:ICESTORM_API",
+    "objc:header-dir:objc",
+    "python:pkgdir:IceStorm",
     "java:package:com.zeroc",
   ],
   "includes": Array [
@@ -19561,6 +19691,7 @@ Object {
       "doc": undefined,
       "metadata": Array [
         "objc:prefix:ICEMX",
+        "js:module:ice",
       ],
       "name": "IceMX",
       "type": "module",
