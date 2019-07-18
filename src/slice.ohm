@@ -62,7 +62,7 @@ Slice {
   optionalModifier = "optional(" decimalIntegerLiteral ")"
   localModifier = "local"
 
-  typeId = identifier ("::" identifier)*
+  typeId = "::"? identifier ("::" identifier)*
   objectType = typeId | "Object" | "LocalObject"
   dataType = proxyType | primitiveType | objectType
   proxyType = objectType whitespace* "*"

@@ -482,7 +482,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
   objectType(node) {
     return node.sourceString;
   },
-  typeId(first, t1, rest) {
+  typeId(t1, first, t2, rest) {
     return this.sourceString;
   },
 

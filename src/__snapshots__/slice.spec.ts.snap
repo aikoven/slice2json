@@ -19701,6 +19701,40 @@ Object {
 }
 `;
 
+exports[`Slices absolute.ice 1`] = `
+Object {
+  "globalMetadata": undefined,
+  "includes": undefined,
+  "modules": Array [
+    Object {
+      "content": Array [
+        Object {
+          "doc": undefined,
+          "fields": Array [
+            Object {
+              "dataType": "::A::B",
+              "defaultValue": undefined,
+              "doc": undefined,
+              "metadata": undefined,
+              "name": "field",
+            },
+          ],
+          "local": undefined,
+          "metadata": undefined,
+          "name": "S",
+          "type": "struct",
+        },
+      ],
+      "doc": undefined,
+      "metadata": undefined,
+      "name": "A",
+      "type": "module",
+    },
+  ],
+  "pragmaOnce": true,
+}
+`;
+
 exports[`Slices dictionary.ice 1`] = `
 Object {
   "globalMetadata": undefined,
