@@ -13,6 +13,13 @@ function getType(node: Node) {
   return {type: node.ctorName};
 }
 
+function getLocation(node: Node): types.Location {
+  return {
+    start: node.source.startIdx,
+    end: node.source.endIdx,
+  };
+}
+
 const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
   SliceSource(
     directivesNode: Node,
@@ -86,6 +93,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
     const [metadata] = metadataNode.toJson();
     return {
       type: 'module',
+      location: getLocation(this),
       name: identifierNode.toJson(),
       doc: findDocString(this),
       metadata: metadata ? metadata.data : undefined,
@@ -106,6 +114,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
 
     return {
       type: 'classForward',
+      location: getLocation(this),
       name: identifierNode.toJson(),
       doc: findDocString(this),
       local: local ? true : undefined,
@@ -129,6 +138,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
 
     return {
       type: 'class',
+      location: getLocation(this),
       name: identifierNode.toJson(),
       doc: findDocString(this),
       metadata: metadata ? metadata.data : undefined,
@@ -158,6 +168,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
 
     return {
       type: 'field',
+      location: getLocation(this),
       name: identifierNode.toJson(),
       doc: findDocString(this),
       metadata: metadata ? metadata.data : undefined,
@@ -180,6 +191,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
 
     return {
       type: 'interfaceForward',
+      location: getLocation(this),
       name: identifierNode.toJson(),
       doc: findDocString(this),
       local: local ? true : undefined,
@@ -203,6 +215,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
 
     return {
       type: 'interface',
+      location: getLocation(this),
       name: identifierNode.toJson(),
       doc: findDocString(this),
       metadata: metadata ? metadata.data : undefined,
@@ -235,6 +248,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
 
     return {
       type: 'exception',
+      location: getLocation(this),
       name: identifierNode.toJson(),
       doc: findDocString(this),
       metadata: metadata ? metadata.data : undefined,
@@ -259,6 +273,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
 
     return {
       type: 'struct',
+      location: getLocation(this),
       name: identifierNode.toJson(),
       doc: findDocString(this),
       metadata: metadata ? metadata.data : undefined,
@@ -279,6 +294,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
     const [defaultValue] = defaultValueNode.toJson();
 
     return {
+      location: getLocation(this),
       name: identifierNode.toJson(),
       doc: findDocString(this),
       metadata: metadata ? metadata.data : undefined,
@@ -301,6 +317,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
 
     return {
       type: 'enum',
+      location: getLocation(this),
       name: identifierNode.toJson(),
       doc: findDocString(this),
       metadata: metadata ? metadata.data : undefined,
@@ -313,6 +330,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
   EnumElement(this: Node, identifierNode, enumValueNode): types.EnumElement {
     const [value] = enumValueNode.toJson();
     return {
+      location: getLocation(this),
       doc: findDocString(this),
       name: identifierNode.toJson(),
       value: value ? value.data : undefined,
@@ -339,6 +357,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
 
     return {
       type: 'sequence',
+      location: getLocation(this),
       name: identifierNode.toJson(),
       doc: findDocString(this),
       metadata: metadata ? metadata.data : undefined,
@@ -368,6 +387,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
 
     return {
       type: 'dictionary',
+      location: getLocation(this),
       name: identifierNode.toJson(),
       doc: findDocString(this),
       metadata: metadata ? metadata.data : undefined,
@@ -398,6 +418,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
   ): types.ConstDeclaration {
     return {
       type: 'const',
+      location: getLocation(this),
       name: identifierNode.toJson(),
       doc: findDocString(this),
       dataType: dataTypeNode.sourceString,
@@ -425,6 +446,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
 
     return {
       type: 'operation',
+      location: getLocation(this),
       name: identifierNode.toJson(),
       doc: findDocString(this),
       metadata: metadata ? metadata.data : undefined,
@@ -436,6 +458,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
     };
   },
   ParameterDeclaration(
+    this: Node,
     metadataNode,
     outModifierNode,
     optionalModifierNode,
@@ -448,6 +471,7 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
 
     return {
       name: identifierNode.toJson(),
+      location: getLocation(this),
       metadata: metadata ? metadata.data : undefined,
       out: out ? true : undefined,
       optional: optional ? optional.tag : undefined,
@@ -502,7 +526,6 @@ const sliceSemantics = sliceGrammar.createSemantics().addOperation('toJson', {
     return str;
   },
 });
-
 
 export function parse(source: string): types.SliceSource {
   const res = sliceGrammar.match(stripDirectives(source));

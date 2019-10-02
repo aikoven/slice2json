@@ -9,22 +9,38 @@ const stripSemantics = directivesGrammar
   .createSemantics()
   .addOperation('strip', {
     Source(t1) {
-      return t1
-        .strip()
-        .filter((t: string) => t)
-        .join('\n');
+      const result = [];
+
+      for (const item of t1.strip()) {
+        if (item == null) {
+          continue;
+        }
+
+        if (Array.isArray(item)) {
+          result.push(...item);
+        } else {
+          result.push(item);
+        }
+      }
+
+      return result;
     },
     Code(this: Node, t1) {
-      return this.sourceString;
+      const {startIdx, endIdx} = this.source;
+      return {
+        result: this.sourceString,
+        startIdx,
+        endIdx,
+      };
     },
     Ifdef(t1, t2, t3, t4) {
-      return '';
+      return null;
     },
     If(t1, condition, code, t4) {
       if (condition.sourceString.startsWith('!defined')) {
         return code.strip();
       }
-      return '';
+      return null;
     },
     Ifndef(t1, t2, code, t4) {
       return code.strip();
@@ -40,5 +56,26 @@ export function stripDirectives(source: string): string {
     throw new Error(`Failed to strip directives:\n${res.message}`);
   }
 
-  return stripSemantics(res).strip();
+  const items = stripSemantics(res).strip();
+
+  let result = '';
+
+  let lastIndex = 0;
+
+  for (const item of items) {
+    if (item == null) {
+      continue;
+    }
+    result += fillWithWhitespace(source.slice(lastIndex, item.startIdx));
+    result += item.result;
+    lastIndex = item.endIdx;
+  }
+
+  result += fillWithWhitespace(source.slice(lastIndex));
+
+  return result;
+}
+
+function fillWithWhitespace(str: string) {
+  return str.replace(/[^\n]/g, ' ');
 }

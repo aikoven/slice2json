@@ -5,8 +5,14 @@ export interface SliceSource {
   modules: ModuleDeclaration[];
 }
 
+export type Location = {
+  start: number;
+  end: number;
+}
+
 export interface ModuleDeclaration {
   type: 'module';
+  location: Location;
   name: string;
   doc?: string;
   metadata?: string[];
@@ -28,6 +34,7 @@ export type ModuleChild =
 
 export interface ClassForwardDeclaration {
   type: 'classForward';
+  location: Location;
   name: string;
   doc?: string;
   local?: boolean;
@@ -36,6 +43,7 @@ export interface ClassForwardDeclaration {
 
 export interface ClassDeclaration {
   type: 'class';
+  location: Location;
   name: string;
   doc?: string;
   metadata?: string[];
@@ -48,6 +56,7 @@ export type ClassChild = ClassFieldDeclaration | OperationDeclaration;
 
 export interface ClassFieldDeclaration {
   type: 'field';
+  location: Location;
   name: string;
   doc?: string;
   metadata?: string[];
@@ -58,6 +67,7 @@ export interface ClassFieldDeclaration {
 
 export interface InterfaceForwardDeclaration {
   type: 'interfaceForward';
+  location: Location;
   name: string;
   doc?: string;
   local?: boolean;
@@ -66,6 +76,7 @@ export interface InterfaceForwardDeclaration {
 
 export interface InterfaceDeclaration {
   type: 'interface';
+  location: Location;
   name: string;
   doc?: string;
   metadata?: string[];
@@ -76,6 +87,7 @@ export interface InterfaceDeclaration {
 
 export interface ExceptionDeclaration {
   type: 'exception';
+  location: Location;
   name: string;
   doc?: string;
   metadata?: string[];
@@ -86,6 +98,7 @@ export interface ExceptionDeclaration {
 
 export interface StructDeclaration {
   type: 'struct';
+  location: Location;
   name: string;
   doc?: string;
   metadata?: string[];
@@ -94,6 +107,7 @@ export interface StructDeclaration {
 }
 
 export interface StructFieldDeclaration {
+  location: Location;
   name: string;
   doc?: string;
   metadata?: string[];
@@ -103,6 +117,7 @@ export interface StructFieldDeclaration {
 
 export interface EnumDeclaration {
   type: 'enum';
+  location: Location;
   name: string;
   doc?: string;
   metadata?: string[];
@@ -110,6 +125,7 @@ export interface EnumDeclaration {
 }
 
 export interface EnumElement {
+  location: Location;
   doc?: string;
   name: string;
   value?: string;
@@ -117,6 +133,7 @@ export interface EnumElement {
 
 export interface SequenceDeclaration {
   type: 'sequence';
+  location: Location;
   name: string;
   doc?: string;
   metadata?: string[];
@@ -127,6 +144,7 @@ export interface SequenceDeclaration {
 
 export interface DictionaryDeclaration {
   type: 'dictionary';
+  location: Location;
   name: string;
   doc?: string;
   metadata?: string[];
@@ -139,6 +157,7 @@ export interface DictionaryDeclaration {
 
 export interface ConstDeclaration {
   type: 'const';
+  location: Location;
   name: string;
   doc?: string;
   dataType: string;
@@ -147,6 +166,7 @@ export interface ConstDeclaration {
 
 export interface OperationDeclaration {
   type: 'operation';
+  location: Location;
   name: string;
   doc?: string;
   metadata?: string[];
@@ -158,6 +178,7 @@ export interface OperationDeclaration {
 }
 
 export interface ParameterDeclaration {
+  location: Location;
   name: string;
   metadata?: string[];
   out?: boolean;

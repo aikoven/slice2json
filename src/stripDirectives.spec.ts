@@ -13,15 +13,22 @@ c
 d
 #endif
 suffix
-`.trim();
+`;
 
-const expected = `
-prefix
-a
-c
-d
-suffix
-`.trim();
+const expected =
+  '\n' +
+  'prefix\n' +
+  '           \n' +
+  'a\n' +
+  '            \n' +
+  ' \n' +
+  '      \n' +
+  'c\n' +
+  '      \n' +
+  '                 \n' +
+  'd\n' +
+  '      \n' +
+  'suffix\n';
 
 test('stripDirectives', () => {
   expect(stripDirectives('')).toEqual('');
