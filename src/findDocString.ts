@@ -24,7 +24,7 @@ export function findDocString(node: Node) {
   // reverse string to find last comment using non-greedy match
   const prevReversed = reverseString(previous);
 
-  const match = prevReversed.match(/^\s*\/\*\*\s*\n([^]*?)\n\s*\*\*\//);
+  const match = prevReversed.match(/^\s*\/\*\*?\s*\n([^]*?)\n\s*\*\*\//);
 
   if (match == null) {
     return undefined;

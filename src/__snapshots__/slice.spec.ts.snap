@@ -798,7 +798,10 @@ Object {
     Object {
       "content": Array [
         Object {
-          "doc": undefined,
+          "doc": "Information taken from an SSL connection used for permissions
+verification.
+
+@see PermissionsVerifier",
           "fields": Array [
             Object {
               "dataType": "string",
@@ -3183,7 +3186,7 @@ a connection receives a heartbeat message.
           "type": "interface",
         },
         Object {
-          "doc": undefined,
+          "doc": "Specifies the close semantics for Active Connection Management.",
           "enums": Array [
             Object {
               "doc": undefined,
@@ -3206,7 +3209,8 @@ a connection receives a heartbeat message.
               "value": undefined,
             },
             Object {
-              "doc": undefined,
+              "doc": "Forcefully closes a connection that has been idle for the configured timeout period,
+but only if the connection has pending invocations.",
               "location": Object {
                 "end": 3023,
                 "start": 3006,
@@ -3226,7 +3230,8 @@ a connection receives a heartbeat message.
               "value": undefined,
             },
             Object {
-              "doc": undefined,
+              "doc": "Forcefully closes a connection that has been idle for the configured timeout period,
+regardless of whether the connection has pending invocations or dispatch.",
               "location": Object {
                 "end": 3339,
                 "start": 3320,
@@ -3246,7 +3251,7 @@ a connection receives a heartbeat message.
           "type": "enum",
         },
         Object {
-          "doc": undefined,
+          "doc": "Specifies the heartbeat semantics for Active Connection Management.",
           "enums": Array [
             Object {
               "doc": undefined,
@@ -3299,7 +3304,7 @@ a connection receives a heartbeat message.
           "type": "enum",
         },
         Object {
-          "doc": undefined,
+          "doc": "A collection of Active Connection Management configuration settings.",
           "fields": Array [
             Object {
               "dataType": "int",
@@ -4264,7 +4269,11 @@ its implicit final parameter.",
           "doc": undefined,
           "enums": Array [
             Object {
-              "doc": undefined,
+              "doc": "Ordinary operations have <code>Normal</code> mode.  These operations
+modify object state; invoking such an operation twice in a row
+has different semantics than invoking it once. The Ice run time
+guarantees that it will not violate at-most-once semantics for
+<code>Normal</code> operations.",
               "location": Object {
                 "end": 1441,
                 "start": 1435,
@@ -4274,7 +4283,19 @@ its implicit final parameter.",
               "value": undefined,
             },
             Object {
-              "doc": undefined,
+              "doc": "Operations that use the Slice <code>nonmutating</code> keyword must not
+modify object state. For C++, nonmutating operations generate
+<code>const</code> member functions in the skeleton. In addition, the Ice
+run time will attempt to transparently recover from certain
+run-time errors by re-issuing a failed request and propagate
+the failure to the application only if the second attempt
+fails.
+
+<p class=\\"Deprecated\\"><code>Nonmutating</code> is deprecated; Use the
+<code>idempotent</code> keyword instead. For C++, to retain the mapping
+of <code>nonmutating</code> operations to C++ <code>const</code>
+member functions, use the <code>\\\\[\\"cpp:const\\"]</code> metadata
+directive.",
               "location": Object {
                 "end": 2242,
                 "start": 2230,
@@ -4284,7 +4305,14 @@ its implicit final parameter.",
               "value": undefined,
             },
             Object {
-              "doc": undefined,
+              "doc": "Operations that use the Slice <code>idempotent</code> keyword can modify
+object state, but invoking an operation twice in a row must
+result in the same object state as invoking it once.  For
+example, <code>x = 1</code> is an idempotent statement,
+whereas <code>x += 1</code> is not. For idempotent
+operations, the Ice run-time uses the same retry behavior
+as for nonmutating operations in case of a potentially
+recoverable error.",
               "location": Object {
                 "end": 2762,
                 "start": 2751,
@@ -4601,7 +4629,8 @@ non-blocking, -1 means no timeout.",
             Object {
               "dataType": "bool",
               "defaultValue": undefined,
-              "doc": undefined,
+              "doc": "Specifies whether or not compression should be used if
+available when using this endpoint.",
               "location": Object {
                 "end": 1944,
                 "start": 1930,
@@ -4772,7 +4801,7 @@ non-blocking, -1 means no timeout.",
             Object {
               "dataType": "string",
               "defaultValue": undefined,
-              "doc": undefined,
+              "doc": "The source IP address.",
               "location": Object {
                 "end": 3416,
                 "start": 3395,
@@ -5081,7 +5110,7 @@ Object {
 in a proxy when establishing a connection.",
           "enums": Array [
             Object {
-              "doc": undefined,
+              "doc": "<code>Random</code> causes the endpoints to be arranged in a random order.",
               "location": Object {
                 "end": 656,
                 "start": 650,
@@ -5091,7 +5120,8 @@ in a proxy when establishing a connection.",
               "value": undefined,
             },
             Object {
-              "doc": undefined,
+              "doc": "<code>Ordered</code> forces the Ice run time to use the endpoints in the
+order they appeared in the proxy.",
               "location": Object {
                 "end": 806,
                 "start": 799,
@@ -9261,7 +9291,10 @@ any decorations such as executable name or time stamp.
               "type": "operation",
             },
             Object {
-              "doc": undefined,
+              "doc": "Returns a clone of the logger with a new prefix.
+
+@param prefix The new prefix for the logger.
+@return A logger instance.",
               "idempotent": undefined,
               "location": Object {
                 "end": 1714,
@@ -21991,7 +22024,7 @@ Object {
             Object {
               "dataType": "string",
               "defaultValue": undefined,
-              "doc": undefined,
+              "doc": "The identifier of the server.",
               "location": Object {
                 "end": 944,
                 "start": 934,
@@ -25794,7 +25827,9 @@ Object {
           "type": "sequence",
         },
         Object {
-          "doc": undefined,
+          "doc": "This dictionary represents quality of service parameters.
+
+@see Topic#subscribeAndGetPublisher",
           "keyType": "string",
           "keyTypeMetadata": undefined,
           "local": undefined,
@@ -25813,7 +25848,7 @@ Object {
             Object {
               "dataType": "string",
               "defaultValue": undefined,
-              "doc": undefined,
+              "doc": "The name of the linked topic.",
               "location": Object {
                 "end": 1614,
                 "start": 1602,
@@ -25841,7 +25876,7 @@ that already exists.",
             Object {
               "dataType": "string",
               "defaultValue": undefined,
-              "doc": undefined,
+              "doc": "The name of the link that does not exist.",
               "location": Object {
                 "end": 1845,
                 "start": 1833,
@@ -26273,7 +26308,7 @@ logically represents a type.
             Object {
               "dataType": "string",
               "defaultValue": undefined,
-              "doc": undefined,
+              "doc": "The name of the topic that already exists.",
               "location": Object {
                 "end": 6320,
                 "start": 6308,
@@ -26301,7 +26336,7 @@ that already exists.",
             Object {
               "dataType": "string",
               "defaultValue": undefined,
-              "doc": undefined,
+              "doc": "The name of the topic that does not exist.",
               "location": Object {
                 "end": 6556,
                 "start": 6544,
