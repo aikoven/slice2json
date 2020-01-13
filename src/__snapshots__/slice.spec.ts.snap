@@ -26737,6 +26737,71 @@ Object {
 }
 `;
 
+exports[`Slices enum.ice 1`] = `
+Object {
+  "globalMetadata": undefined,
+  "includes": undefined,
+  "modules": Array [
+    Object {
+      "content": Array [
+        Object {
+          "doc": undefined,
+          "enums": Array [
+            Object {
+              "doc": undefined,
+              "location": Object {
+                "end": 48,
+                "start": 40,
+              },
+              "name": "E10",
+              "type": "enumElement",
+              "value": "10",
+            },
+            Object {
+              "doc": undefined,
+              "location": Object {
+                "end": 56,
+                "start": 50,
+              },
+              "name": "E3",
+              "type": "enumElement",
+              "value": "3",
+            },
+            Object {
+              "doc": undefined,
+              "location": Object {
+                "end": 64,
+                "start": 58,
+              },
+              "name": "E0",
+              "type": "enumElement",
+              "value": "0",
+            },
+          ],
+          "location": Object {
+            "end": 69,
+            "start": 27,
+          },
+          "metadata": undefined,
+          "name": "E",
+          "type": "enum",
+        },
+      ],
+      "doc": undefined,
+      "location": Object {
+        "end": 72,
+        "start": 14,
+      },
+      "metadata": undefined,
+      "name": "A",
+      "type": "module",
+    },
+  ],
+  "pragmaOnce": true,
+  "type": "source",
+}
+`;
+
 exports[`Slices metadata.ice 1`] = `
 Object {
   "globalMetadata": undefined,

@@ -359,7 +359,10 @@ function getGrammarAndSemantics() {
       };
     },
     EnumValue(t1, valueNode) {
-      return valueNode.sourceString;
+      return {
+        type: 'EnumValue',
+        data: valueNode.sourceString,
+      };
     },
 
     SequenceDeclaration(
