@@ -22,10 +22,11 @@ Slice {
                  | ConstDeclaration
 
   ClassForwardDeclaration = localModifier? "class" identifier ClassExtendsDeclaration? ";"
-  ClassDeclaration = Metadata? localModifier? "class" identifier ClassExtendsDeclaration? "{" ClassBody closeBracket
+  ClassDeclaration = Metadata? localModifier? "class" identifier ClassCompactTypeId? ClassExtendsDeclaration? "{" ClassBody closeBracket
   ClassExtendsDeclaration = "extends" objectType
   ClassBody = (ClassFieldDeclaration | OperationDeclaration)*
   ClassFieldDeclaration = Metadata? optionalModifier? dataType identifier DefaultValue? ";"
+  ClassCompactTypeId = "(" decimalIntegerLiteral ")"
 
   InterfaceForwardDeclaration = localModifier? "interface" identifier InterfaceExtendsDeclaration? ";"
   InterfaceDeclaration = Metadata? localModifier? "interface" identifier InterfaceExtendsDeclaration? "{" InterfaceBody closeBracket

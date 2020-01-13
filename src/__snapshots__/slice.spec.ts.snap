@@ -21,6 +21,7 @@ Object {
     Object {
       "content": Array [
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "int",
@@ -3001,6 +3002,7 @@ made on a compressed proxy.",
           "type": "enum",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "ConnectionInfo",
@@ -3915,6 +3917,7 @@ not yet closed.",
           "type": "interface",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -3981,6 +3984,7 @@ not yet closed.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "int",
@@ -4021,6 +4025,7 @@ not yet closed.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -4102,6 +4107,7 @@ not yet closed.",
           "valueTypeMetadata": undefined,
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "HeaderDict",
@@ -4562,6 +4568,7 @@ Object {
           "value": "9",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "EndpointInfo",
@@ -4734,6 +4741,7 @@ non-blocking, -1 means no timeout.",
           "type": "interface",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -4789,6 +4797,7 @@ non-blocking, -1 means no timeout.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [],
           "doc": "Provides access to a TCP endpoint information.
 
@@ -4804,6 +4813,7 @@ non-blocking, -1 means no timeout.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -4846,6 +4856,7 @@ non-blocking, -1 means no timeout.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -4873,6 +4884,7 @@ non-blocking, -1 means no timeout.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "EncodingVersion",
@@ -9388,6 +9400,7 @@ Object {
           "valueTypeMetadata": undefined,
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -9859,6 +9872,7 @@ metrics views.",
           "type": "interface",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "int",
@@ -9918,6 +9932,7 @@ their activity.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "int",
@@ -9973,6 +9988,7 @@ the marshalled output and return parameters.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "long",
@@ -10019,6 +10035,7 @@ InvocationMetrics}.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [],
           "doc": "Provides information on invocations that are collocated. Collocated
 metrics are embedded within {@link InvocationMetrics}.",
@@ -10033,6 +10050,7 @@ metrics are embedded within {@link InvocationMetrics}.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [],
           "doc": "Provides information on invocations that are specifically sent over
 Ice connections. Remote metrics are embedded within {@link InvocationMetrics}.",
@@ -10047,6 +10065,7 @@ Ice connections. Remote metrics are embedded within {@link InvocationMetrics}.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "int",
@@ -10118,6 +10137,7 @@ either be sent over the wire or be collocated.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "long",
@@ -14457,6 +14477,7 @@ Object {
     Object {
       "content": Array [
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -14598,6 +14619,7 @@ Object {
     Object {
       "content": Array [
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -20412,6 +20434,7 @@ must exist.",
           "type": "sequence",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "AdapterDescriptorSeq",
@@ -20533,6 +20556,7 @@ directories to retrieve from the patch server.",
           "type": "struct",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -20743,6 +20767,7 @@ distribution.",
           "type": "sequence",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -21020,6 +21045,7 @@ instance (i.e.: if the template attribute is empty).",
           "type": "sequence",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "ServiceInstanceDescriptorSeq",
@@ -21149,6 +21175,7 @@ instance (i.e.: if the template attribute is empty).",
           "valueTypeMetadata": undefined,
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -21177,6 +21204,7 @@ endpoints of a replica group.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [],
           "doc": "Random load balancing policy.",
           "extends": "LoadBalancingPolicy",
@@ -21190,6 +21218,7 @@ endpoints of a replica group.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [],
           "doc": "Ordered load balancing policy.",
           "extends": "LoadBalancingPolicy",
@@ -21203,6 +21232,7 @@ endpoints of a replica group.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [],
           "doc": "Round robin load balancing policy.",
           "extends": "LoadBalancingPolicy",
@@ -21216,6 +21246,7 @@ endpoints of a replica group.",
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -21484,6 +21515,7 @@ minutes and the past 15 minutes.",
           "type": "sequence",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -21664,6 +21696,7 @@ was not updated).",
           "type": "sequence",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "DistributionDescriptor",
@@ -24522,6 +24555,7 @@ Object {
     Object {
       "content": Array [
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -24648,6 +24682,7 @@ Object {
     Object {
       "content": Array [
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -25491,6 +25526,7 @@ Object {
     Object {
       "content": Array [
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "string",
@@ -25631,6 +25667,7 @@ Object {
     Object {
       "content": Array [
         Object {
+          "compactTypeId": undefined,
           "content": Array [],
           "doc": "Provides access to an SSL endpoint information.",
           "extends": "Ice::EndpointInfo",
@@ -26495,6 +26532,7 @@ Object {
     Object {
       "content": Array [
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "long",
@@ -26535,6 +26573,7 @@ Object {
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "int",
@@ -26642,6 +26681,57 @@ Object {
       "doc": undefined,
       "location": Object {
         "end": 63,
+        "start": 14,
+      },
+      "metadata": undefined,
+      "name": "A",
+      "type": "module",
+    },
+  ],
+  "pragmaOnce": true,
+  "type": "source",
+}
+`;
+
+exports[`Slices compact-type-id.ice 1`] = `
+Object {
+  "globalMetadata": undefined,
+  "includes": undefined,
+  "modules": Array [
+    Object {
+      "content": Array [
+        Object {
+          "compactTypeId": 42,
+          "content": Array [],
+          "doc": undefined,
+          "extends": undefined,
+          "local": undefined,
+          "location": Object {
+            "end": 46,
+            "start": 27,
+          },
+          "metadata": undefined,
+          "name": "C",
+          "type": "class",
+        },
+        Object {
+          "compactTypeId": 256,
+          "content": Array [],
+          "doc": undefined,
+          "extends": "C",
+          "local": undefined,
+          "location": Object {
+            "end": 83,
+            "start": 50,
+          },
+          "metadata": undefined,
+          "name": "D",
+          "type": "class",
+        },
+      ],
+      "doc": undefined,
+      "location": Object {
+        "end": 86,
         "start": 14,
       },
       "metadata": undefined,
@@ -26823,6 +26913,7 @@ Object {
     Object {
       "content": Array [
         Object {
+          "compactTypeId": undefined,
           "content": Array [],
           "doc": undefined,
           "extends": undefined,
@@ -26836,6 +26927,7 @@ Object {
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [],
           "doc": undefined,
           "extends": "AbstractBase",
@@ -26849,6 +26941,7 @@ Object {
           "type": "class",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [],
           "doc": undefined,
           "extends": "AbstractBase",
@@ -26889,6 +26982,7 @@ Object {
           "type": "struct",
         },
         Object {
+          "compactTypeId": undefined,
           "content": Array [
             Object {
               "dataType": "AbstractBase",

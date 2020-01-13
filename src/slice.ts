@@ -147,6 +147,7 @@ function getGrammarAndSemantics() {
       localModifierNode,
       t1,
       identifierNode,
+      compactTypeIdNode,
       extendsNode,
       t2,
       bodyNode,
@@ -155,11 +156,13 @@ function getGrammarAndSemantics() {
       const [metadata] = metadataNode.toJson();
       const [local] = localModifierNode.toJson();
       const [extends_] = extendsNode.toJson();
+      const [compactTypeId] = compactTypeIdNode.toJson();
 
       return {
         type: 'class',
         location: getLocation(this),
         name: identifierNode.toJson(),
+        compactTypeId: compactTypeId ? compactTypeId.id : undefined,
         doc: findDocString(this),
         metadata: metadata ? metadata.data : undefined,
         local: local ? true : undefined,
@@ -195,6 +198,12 @@ function getGrammarAndSemantics() {
         optional: optional ? optional.tag : undefined,
         dataType: dataTypeNode.sourceString,
         defaultValue: defaultValue ? defaultValue.data : undefined,
+      };
+    },
+    ClassCompactTypeId(t1, idNode, t2) {
+      return {
+        type: 'compactTypeId',
+        id: +idNode.sourceString,
       };
     },
 

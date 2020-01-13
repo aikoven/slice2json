@@ -46,6 +46,7 @@ export interface ClassDeclaration {
   type: 'class';
   location: Location;
   name: string;
+  compactTypeId?: number;
   doc?: string;
   metadata?: string[];
   local?: boolean;
