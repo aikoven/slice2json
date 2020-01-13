@@ -1,4 +1,5 @@
 export interface SliceSource {
+  type: 'source',
   pragmaOnce?: boolean;
   includes?: string[];
   globalMetadata?: string[];
@@ -107,6 +108,7 @@ export interface StructDeclaration {
 }
 
 export interface StructFieldDeclaration {
+  type: 'structField';
   location: Location;
   name: string;
   doc?: string;
@@ -125,6 +127,7 @@ export interface EnumDeclaration {
 }
 
 export interface EnumElement {
+  type: 'enumElement';
   location: Location;
   doc?: string;
   name: string;
@@ -178,6 +181,7 @@ export interface OperationDeclaration {
 }
 
 export interface ParameterDeclaration {
+  type: 'parameter';
   location: Location;
   name: string;
   metadata?: string[];

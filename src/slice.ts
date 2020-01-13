@@ -62,6 +62,7 @@ function getGrammarAndSemantics() {
         }
       }
       return {
+        type: 'source',
         pragmaOnce,
         includes: includes.length > 0 ? includes : undefined,
         globalMetadata: globalMetadata.length > 0 ? globalMetadata : undefined,
@@ -313,6 +314,7 @@ function getGrammarAndSemantics() {
       const [defaultValue] = defaultValueNode.toJson();
 
       return {
+        type: 'structField',
         location: getLocation(this),
         name: identifierNode.toJson(),
         doc: findDocString(this),
@@ -349,6 +351,7 @@ function getGrammarAndSemantics() {
     EnumElement(this: Node, identifierNode, enumValueNode): types.EnumElement {
       const [value] = enumValueNode.toJson();
       return {
+        type: 'enumElement',
         location: getLocation(this),
         doc: findDocString(this),
         name: identifierNode.toJson(),
@@ -489,6 +492,7 @@ function getGrammarAndSemantics() {
       const [optional] = optionalModifierNode.toJson();
 
       return {
+        type: 'parameter',
         name: identifierNode.toJson(),
         location: getLocation(this),
         metadata: metadata ? metadata.data : undefined,
