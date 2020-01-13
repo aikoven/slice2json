@@ -2859,6 +2859,7 @@ an octal escape. Use this mode to generate strings compatible with Ice 3.6 and e
               "value": undefined,
             },
           ],
+          "local": true,
           "location": Object {
             "end": 19997,
             "start": 19050,
@@ -2987,6 +2988,7 @@ made on a compressed proxy.",
               "value": undefined,
             },
           ],
+          "local": true,
           "location": Object {
             "end": 876,
             "start": 555,
@@ -3232,6 +3234,7 @@ a connection receives a heartbeat message.
               "value": undefined,
             },
           ],
+          "local": true,
           "location": Object {
             "end": 3341,
             "start": 2636,
@@ -3284,6 +3287,7 @@ a connection receives a heartbeat message.
               "value": undefined,
             },
           ],
+          "local": true,
           "location": Object {
             "end": 3839,
             "start": 3422,
@@ -3377,6 +3381,7 @@ On the server side, the connection will not be closed until all incoming invocat
               "value": undefined,
             },
           ],
+          "local": true,
           "location": Object {
             "end": 4811,
             "start": 4187,
@@ -4283,6 +4288,7 @@ its implicit final parameter.",
               "value": undefined,
             },
           ],
+          "local": undefined,
           "location": Object {
             "end": 2764,
             "start": 1068,
@@ -5083,6 +5089,7 @@ in a proxy when establishing a connection.",
               "value": undefined,
             },
           ],
+          "local": true,
           "location": Object {
             "end": 808,
             "start": 513,
@@ -5729,6 +5736,7 @@ lookups, timer callbacks, etc).",
                   "value": undefined,
                 },
               ],
+              "local": true,
               "location": Object {
                 "end": 2159,
                 "start": 1474,
@@ -5855,6 +5863,7 @@ finished before being destroyed and detached from the observer.",
                   "value": undefined,
                 },
               ],
+              "local": true,
               "location": Object {
                 "end": 3443,
                 "start": 2682,
@@ -13084,6 +13093,7 @@ Object {
               "value": undefined,
             },
           ],
+          "local": undefined,
           "location": Object {
             "end": 960,
             "start": 526,
@@ -15507,6 +15517,7 @@ activation timed out.",
               "value": undefined,
             },
           ],
+          "local": undefined,
           "location": Object {
             "end": 1595,
             "start": 748,
@@ -23627,6 +23638,7 @@ Object {
               "value": undefined,
             },
           ],
+          "local": undefined,
           "location": Object {
             "end": 855,
             "start": 633,
@@ -26778,6 +26790,7 @@ Object {
               "value": "0",
             },
           ],
+          "local": undefined,
           "location": Object {
             "end": 69,
             "start": 27,

@@ -123,6 +123,7 @@ export interface EnumDeclaration {
   name: string;
   doc?: string;
   metadata?: string[];
+  local?: boolean;
   enums: EnumElement[];
 }
 

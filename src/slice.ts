@@ -335,6 +335,7 @@ function getGrammarAndSemantics() {
       t3,
     ): types.EnumDeclaration {
       const [metadata] = metadataNode.toJson();
+      const [local] = localModifierNode.toJson();
 
       return {
         type: 'enum',
@@ -342,6 +343,7 @@ function getGrammarAndSemantics() {
         name: identifierNode.toJson(),
         doc: findDocString(this),
         metadata: metadata ? metadata.data : undefined,
+        local: local ? true : undefined,
         enums: bodyNode.toJson(),
       };
     },
